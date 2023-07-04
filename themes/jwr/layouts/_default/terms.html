@@ -1,0 +1,22 @@
+{{ define "main" }}
+    {{ $data := .Data }}
+  <article>
+    <div>
+      {{ .Content }}
+    </div>
+  </article>
+  <div>
+    <section>
+      {{ range $term := .Data.Pages }}
+        <h2>
+          <a href="{{ $term.RelPermalink }}">
+            {{ $.Data.Singular | humanize }}: {{ $term.LinkTitle }}
+          </a>
+        </h2>
+        {{ range $term.Pages }}
+          {{ .Render "summary" }}
+        {{ end }}
+      {{ end }}
+    </section>
+  </div>
+{{ end }}

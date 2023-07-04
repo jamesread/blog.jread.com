@@ -1,7 +1,4 @@
 baseURL = 'http://blog.jread.com/'
 languageCode = 'en-gb'
-title = "James Read's Blog: Code, Containers & Cloud"
-theme = 'ananke'
-
-[params]
-  custom_css = ["custom.css"]
+title = "James Read's Code, Containers & Cloud blog"
+theme = 'jwr'

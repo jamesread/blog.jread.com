@@ -1,0 +1,35 @@
+{{ $featured_image := partial "func/GetFeaturedImage.html" . }}
+{{ if $featured_image }}
+  {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
+  <header>
+    <div>
+      {{ partial "site-navigation.html" .}}
+      <div>
+        <h1>
+          {{ .Title | default .Site.Title }}
+        </h1>
+        {{ with .Params.description }}
+          <h2>
+            {{ . }}
+          </h2>
+        {{ end }}
+      </div>
+    </div>
+  </header>
+{{ else }}
+  <header>
+    <div>
+      {{ partial "site-navigation.html" . }}
+      <div>
+        <h1>
+          {{ .Title | default .Site.Title }}
+        </h1>
+        {{ with .Params.description }}
+          <h2>
+            {{ . }}
+          </h2>
+        {{ end }}
+      </div>
+    </div>
+  </header>
+{{ end }}

@@ -1,9 +1,12 @@
-
-# Use Firefox as a universal web chat app
+---
+title: Use Firefox as a universal web chat app
+date: 2021-07-16T09:47:50+01:00
+draft: false
+---
 
 Chat that is always compatible, updated, and integrates with browser extensions.
 
-![](https://cdn-images-1.medium.com/max/2000/1*OipmMST8SR-H6dmynmF_SA.png)
+![Firefox screenshto with lots of tabs](https://cdn-images-1.medium.com/max/2000/1*OipmMST8SR-H6dmynmF_SA.png)
 
 ## Too many chat apps — can’t change that.
 
@@ -60,22 +63,23 @@ You should get a “**Tab Sidebar Options**” screen, and one tab should be cal
 In that code box, here is the CSS code I am using;
 
 ```
-    img {
-      width: .8em !important;
-      height: .8em !important;
-      margin: auto !important;
-    }
+img {
+  width: .8em !important;
+  height: .8em !important;
+  margin: auto !important;
+}
 
-    [data-ctl=items] {
-      font-size: 3em;
-    }
+[data-ctl=items] {
+  font-size: 3em;
+}
 
-    [data-title] {
-      display: none;
-      font-size: 1em;
-      font-weight: bold;
-      color: black;
-    }
+[data-title] {
+  display: none;
+  font-size: 1em;
+  font-weight: bold;
+  color: black;
+}
+```
 
 This should get you something that looks like this;
 

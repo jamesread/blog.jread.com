@@ -1,0 +1,26 @@
+<nav>
+  <div>
+    <a href="{{ .Site.Home.RelPermalink }}">
+      {{ with .Site.Params.site_logo }}
+        <img src="{{ relURL . }}" />
+      {{ else }}
+        {{ .Site.Title }}
+      {{ end }}
+    </a>
+    <div>
+      {{ partial "i18nlist.html" . }}
+      {{ if .Site.Menus.main }}
+        <ul>
+          {{ range .Site.Menus.main }}
+          <li>
+            <a>
+              {{ .Name }}
+            </a>
+          </li>
+          {{ end }}
+        </ul>
+      {{ end }}
+      {{ partialCached "social-follow.html" . }}
+    </div>
+  </div>
+</nav>
