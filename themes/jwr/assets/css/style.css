@@ -42,6 +42,7 @@ h1 a:hover {
 
 h2 {
   font-weight: lighter;
+  margin-bottom: 0;
 }
 
 h2 a {

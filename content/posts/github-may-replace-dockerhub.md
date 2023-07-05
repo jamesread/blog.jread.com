@@ -5,8 +5,6 @@ draft: false
 medium: https://medium.com/gitconnected/github-may-replace-dockerhub-a5da5e547f01
 ---
 
-# GitHub may replace DockerHub
-
 It’s been interesting to witness the meteoric rise of “Docker” over the years, and it is undoubted that the technology that was pioneered and popularized by Docker (more correctly called “Linux Containers”), is here to stay for the long run. The rise of the technology was partially due to the ease of publishing containers, enabled by free DockerHub service. However, in this article, I propose that DockerHub as a single repository of container images is becoming less and less important than it once was, and in it’s place, GitHub is a strong contender to take over as the 1 repository for containers — as it has its sights on being everything a developer needs.
 
 ![Photo by [Teng Yuhong](https://unsplash.com/@live_for_photo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/shipping-container?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)](https://cdn-images-1.medium.com/max/13440/1*8v3_NywOdo3-dP2C1dGMFA.jpeg)*Photo by [Teng Yuhong](https://unsplash.com/@live_for_photo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/shipping-container?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)*

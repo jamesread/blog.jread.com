@@ -17,8 +17,13 @@
             </a>
         </h2>
 		<aside>
-			~{{ .FuzzyWordCount }} words, {{ .ReadingTime }} min read
+		<time>
+        {{- .Date | time.Format (default "Jan 2, 2006" .Site.Params.date_format) -}}
+        </time>, 
+	    {{  .ReadingTime }} min read
+	    (~{{ .FuzzyWordCount }} words) 
 		</aside>
+		<br />
         <div>
           {{ .Summary }}
         </div>
