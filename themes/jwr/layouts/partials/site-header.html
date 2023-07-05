@@ -5,14 +5,7 @@
     <div>
       {{ partial "site-navigation.html" .}}
       <div>
-        <h1>
-          {{ .Title | default .Site.Title }}
-        </h1>
-        {{ with .Params.description }}
-          <h2>
-            {{ . }}
-          </h2>
-        {{ end }}
+	  <h2>{{ .Title }}</h2>
       </div>
     </div>
   </header>
@@ -20,16 +13,6 @@
   <header>
     <div>
       {{ partial "site-navigation.html" . }}
-      <div>
-        <h1>
-          {{ .Title | default .Site.Title }}
-        </h1>
-        {{ with .Params.description }}
-          <h2>
-            {{ . }}
-          </h2>
-        {{ end }}
-      </div>
     </div>
   </header>
 {{ end }}

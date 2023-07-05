@@ -16,12 +16,13 @@
             {{ .Title }}
             </a>
         </h2>
+		<aside>
+			~{{ .FuzzyWordCount }} words, {{ .ReadingTime }} min read
+		</aside>
         <div>
           {{ .Summary }}
         </div>
 		<a href="{{.RelPermalink}}">Continue reading...</a>
-        {{/* TODO: add author
-        <p>By {{ .Author }}</p> */}}
       </div>
     </div>
   </div>

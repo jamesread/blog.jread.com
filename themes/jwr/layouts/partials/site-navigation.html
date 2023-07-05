@@ -1,12 +1,6 @@
 <nav>
   <div>
-    <a href="{{ .Site.Home.RelPermalink }}">
-      {{ with .Site.Params.site_logo }}
-        <img src="{{ relURL . }}" />
-      {{ else }}
-        {{ .Site.Title }}
-      {{ end }}
-    </a>
+	<h1><a href="{{ .Site.Home.RelPermalink }}">{{ .Site.Title }}</a></h1>
     <div>
       {{ partial "i18nlist.html" . }}
       {{ if .Site.Menus.main }}
