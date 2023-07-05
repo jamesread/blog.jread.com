@@ -1,32 +1,12 @@
-{{ $featured_image := partial "func/GetFeaturedImage.html" . }}
 <article>
   <div>
     <div>
-      {{ if $featured_image }}
-          {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
-        <div>
-          <a href="{{.RelPermalink}}">
-            <img src="{{ $featured_image }}">
-          </a>
-        </div>
-      {{ end }}
-      <div>
-        <h2>
-          <a href="{{.RelPermalink}}">
-            {{ .Title }}
-            </a>
-        </h2>
-		<aside>
-		<time>
-        {{- .Date | time.Format (default "Jan 2, 2006" .Site.Params.date_format) -}}
-        </time>, 
-	    {{  .ReadingTime }} min read
-	    (~{{ .FuzzyWordCount }} words) 
-		</aside>
-		<br />
+	  {{ partial "article-header.html" . }}
+
         <div>
           {{ .Summary }}
         </div>
+		<br />
 		<a href="{{.RelPermalink}}">Continue reading...</a>
       </div>
     </div>

@@ -4,18 +4,23 @@ body {
   font-family: serif;
   font-size: 1.2em;
   line-height: 1.5;
+  background-color: #fbfbfb;
 }
 
 header {
   background-color: #dee3e7;
+  border-bottom: 1px solid #ddd;
   padding: 1em;
   margin: auto;
+}
+
+nav {
   max-width: 1000px;
+  margin: auto;
 }
 
 main {
   margin: auto;
-  padding: 1em;
   max-width: 1000px;
 }
 
@@ -42,7 +47,7 @@ h1 a:hover {
 
 h2 {
   font-weight: lighter;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 h2 a {
@@ -54,9 +59,25 @@ h2 a:hover {
   text-decoration: underline;
 }
 
+article {
+  background-color: white;
+  padding: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border: 1px solid #ddd;
+}
+
 article header {
   padding: 0;
   background-color: #fff;
+}
+
+article img.featured {
+  object-fit: cover;
+  height: 320px;
+  width: 100%;
+  box-shadow: none;
+  margin: 1em auto 1em auto;
 }
 
 aside {
@@ -71,7 +92,7 @@ article img {
   max-width: 100%;
 }
 
-em {
+aside.featuredImageCredit {
   color: gray;
   text-align: center;
   display: block;

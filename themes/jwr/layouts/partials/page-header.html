@@ -4,16 +4,6 @@
   <header>
     <div>
       {{ partial "site-navigation.html" . }}
-      <div>
-        {{ if not .Params.omit_header_text }}
-          <div>{{ .Title | default .Site.Title }}</div>
-          {{ with .Params.description  }}
-            <div>
-              {{ . }}
-            </div>
-          {{ end }}
-        {{ end }}
-      </div>
     </div>
   </header>
 {{ else }}

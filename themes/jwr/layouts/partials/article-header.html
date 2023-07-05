@@ -1,0 +1,25 @@
+<header>
+  <h2>
+	  <a href = "{{.RelPermalink}}">{{- .Title -}}</a>
+  </h2>
+  {{ partial "social-share.html" . }}
+
+  <aside>
+  <time>
+	{{- .Date | time.Format (default "Jan 2, 2006" .Site.Params.date_format) -}}
+  </time>, 
+  {{  .ReadingTime }} min read 
+  (~{{ .FuzzyWordCount }} words)
+  </aside>
+</header>
+
+{{ $featured_image := partial "func/GetFeaturedImage.html" . }}
+{{ if $featured_image }}
+  <div>
+    <a href="{{.RelPermalink}}">
+    <img src="{{ $featured_image }}" class = "featured" />
+    </a>
+  </div>
+{{ end }}
+
+
