@@ -1,7 +1,7 @@
 ---
-title: "Google Rehab"
-date: 2023-07-03T09:47:50+01:00
-draft: false
+title: "Testing post"
+date: 2000-01-01T09:47:50+01:00
+draft: true
 ---
 
 I signed up for a Google account when I was still in University, in 2006.
@@ -16,7 +16,12 @@ asdf
 asdf
 
 
-Use Firefox as a universal web chat app
+## Header 2
+
+this is a paragraph.
+
+### Header 3
+
 Chat that is always compatible, updated, and integrates with browser extensions.
 Too many chat apps - can't change that.
 The amount of chat applications and protocols out there now-a-days is getting absolutely crazy. It's like in the 1990s, when we had ICQ, AIM, IRC, and others. For a little while, I felt like things were getting better - I got down to just 2 chat apps!…
