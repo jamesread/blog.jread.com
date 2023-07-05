@@ -65,4 +65,11 @@
     </aside>
 
   </article>
+
+  {{ if .Params.Medium }}
+  <aside>
+  <p>This article is also published on <a href = "{{ .Params.Medium }}">Medium.com</a>.</p>
+  </aside>
+  {{ end }}
+
 {{ end }}

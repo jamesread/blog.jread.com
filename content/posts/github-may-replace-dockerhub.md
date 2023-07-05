@@ -2,6 +2,7 @@
 title: "GitHub may replace DockerHub"
 date: 2021-12-23
 draft: false
+medium: https://medium.com/gitconnected/github-may-replace-dockerhub-a5da5e547f01
 ---
 
 # GitHub may replace DockerHub
