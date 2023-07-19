@@ -7,6 +7,7 @@ categories:
   - Predictions 
 tags:
   - github
+  - cloud
   - containers
 featured_image: containers.jpg
 featured_image_credit: Teng Yuhong
