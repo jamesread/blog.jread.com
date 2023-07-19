@@ -15,8 +15,14 @@ menu:
       pageRef: '/'
       weight: 99
 
-    - name: 'Tags'
-      pageRef: '/tags'
+    - name: 'Code'
+      pageRef: '/tags/code'
 
-    - name: 'Categories'
-      pageRef: '/categories'
+    - name: 'Containers'
+      pageRef: '/tags/containers'
+
+    - name: 'Cloud'
+      pageRef: '/tags/cloud'
+
+    - name: 'Misc'
+      pageRef: '/tags/misc'
