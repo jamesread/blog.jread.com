@@ -4,9 +4,9 @@
 
 {{ define "main" }}
   {{ $section := .Site.GetPage "section" .Section }}
-  <p>
-	  <aside>You are viewing a single post.</aside>
-  </p>
+  <aside class = "currentPage">
+	You are viewing a single post.
+  </aside>
   <article>
 	  {{ partial "post-header.html" . }}
 

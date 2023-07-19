@@ -1,7 +1,6 @@
 {{ define "main" }}
-<p>
-	<aside>You are viewing a tag.</aside>
-</p>
+
+<aside class = "currentPage">You are viewing a tag: <strong>{{ .Title }}</strong>.</aside>
 
 <section>
 	{{ range  .Pages }}

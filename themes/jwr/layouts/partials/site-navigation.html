@@ -1,5 +1,4 @@
 <nav>
-  <div>
 	<h1><a href="{{ .Site.Home.RelPermalink }}">{{ .Site.Title }}</a></h1>
     <div>
       {{ if .Site.Menus.main }}
@@ -15,5 +14,4 @@
       {{ end }}
       {{ partialCached "social-follow.html" . }}
     </div>
-  </div>
 </nav>

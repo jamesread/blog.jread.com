@@ -51,7 +51,10 @@
 
   <body>
 
-    {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
+	<header>
+	  {{ partial "site-navigation.html" .}}
+	</header>
+
     <main role="main">
       {{ block "main" . }}{{ end }}
     </main>
