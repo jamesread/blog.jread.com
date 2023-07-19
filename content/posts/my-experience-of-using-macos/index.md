@@ -2,6 +2,8 @@
 title: "My first experiences using MacOS"
 date: 2019-12-19
 draft: false
+tags:
+  - misc
 ---
 
 This article was written after 24 hours with a Mac Mini, i5 CPU, 8GB RAM, 1TB HDD. Mac OS Catalina. My own Monitor, Mouse, Keyboard.

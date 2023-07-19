@@ -6,6 +6,8 @@ medium: https://medium.com/james-reads-public-cloud-technology-blog/speed-up-you
 featured_image: cover.jpg
 featured_image_credit: Kevin Ku
 featured_image_url: https://www.pexels.com/@kevin-ku-92347?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels
+tags:
+  - misc
 ---
 
 # Speed up your command line navigation
