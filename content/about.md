@@ -1,5 +1,5 @@
 ---
-menu: main
-title: about
+#menu: main
+title: About
 ---
 This is an about page
