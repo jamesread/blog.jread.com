@@ -1,10 +1,12 @@
 {{ define "main" }}
+list.html
   <article>
     <section>
       {{- .Content -}}
     </section>
     <section>
       {{ range .Paginator.Pages }}
+	  asdf
         <div>
           {{ .Render "summary" }}
         </div>

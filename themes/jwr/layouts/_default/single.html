@@ -1,12 +1,12 @@
 {{ define "header" }}
-   {{/* We can override any block in the baseof file be defining it in the template */}}
   {{ partial "page-header.html" . }}
 {{ end }}
 
 {{ define "main" }}
   {{ $section := .Site.GetPage "section" .Section }}
+  single.html
   <article>
-	  {{ partial "article-header.html" . }}
+	  {{ partial "post-header.html" . }}
 
 	{{ if .Params.featured_image_credit }}
 	<aside class = "featuredImageCredit">
@@ -16,12 +16,10 @@
     <div>
       {{- .Content -}}
       {{- partial "tags.html" . -}}
+
       <div>
       {{ if .Site.DisqusShortname }}
         {{ template "_internal/disqus.html" . }}
-      {{ end }}
-      {{ if .Site.Params.commentoEnable }}
-        {{- partial "commento.html" . -}}
       {{ end }}
       </div>
     </div>

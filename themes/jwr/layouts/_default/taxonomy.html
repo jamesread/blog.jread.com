@@ -1,4 +1,5 @@
 {{ define "main" }}
+taxonomy.html
   <article>
     <div>
       <p>{{ i18n "taxonomyPageList" . }}</p>
@@ -8,7 +9,7 @@
     <section>
       {{ range  .Pages }}
         <div>
-          {{ .Render "summary" }}
+		  {{ .Render "summary" }}
         </div>
       {{ end }}
     </section>

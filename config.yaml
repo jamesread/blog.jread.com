@@ -1,0 +1,22 @@
+baseURL: 'http://blog.jread.com/'
+languageCode: 'en-gb'
+title: "James Read's Code, Containers & Cloud blog"
+theme: 'jwr'
+
+params:
+  logo: "logo.png"
+  author: "James Read"
+  githubuser: "jamesread"
+  description: "James Read's Code, Containers & Cloud blog"
+
+menu:
+  main:
+    - name: 'Home'
+      pageRef: '/'
+      weight: 99
+
+    - name: 'Tags'
+      pageRef: '/tags'
+
+    - name: 'Categories'
+      pageRef: '/categories'

@@ -20,7 +20,7 @@
       <section>
         {{ range ($section) }}
           <div>
-            {{ .Render "summary-with-image" }}
+			{{ partial "post-summary.html" . }}
           </div>
         {{ end }}
       </section>
