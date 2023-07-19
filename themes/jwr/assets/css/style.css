@@ -108,3 +108,27 @@ pre {
   padding-top: 1em;
   padding-bottom: 1em;
 }
+
+ul.tags {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.tags li {
+  display: inline-block; 
+}
+
+ul.tags li a {
+  font-family: sans;
+  padding: .5em;
+  margin-right: .5em;
+  background-color: #666;
+  color: white;
+  text-decoration: none;
+  border-radius: .5em;
+}
+
+ul.tags li a:hover {
+  background-color: black;
+}

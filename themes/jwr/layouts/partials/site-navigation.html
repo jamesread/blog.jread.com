@@ -2,12 +2,11 @@
   <div>
 	<h1><a href="{{ .Site.Home.RelPermalink }}">{{ .Site.Title }}</a></h1>
     <div>
-      {{ partial "i18nlist.html" . }}
       {{ if .Site.Menus.main }}
         <ul>
           {{ range .Site.Menus.main }}
           <li>
-            <a>
+		    <a href = "{{ .PageRef }}">
               {{ .Name }}
             </a>
           </li>
