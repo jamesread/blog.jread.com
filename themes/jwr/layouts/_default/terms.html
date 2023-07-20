@@ -1,13 +1,9 @@
 {{ define "main" }}
-  <div>
-    <section>
-      {{ range $term := .Data.Pages }}
-          <a href="{{ $term.RelPermalink }}">
-            {{ $.Data.Singular | humanize }}: {{ $term.LinkTitle }}
-
-          </a>
-		   ({{ len $term.Pages }} articles)
-      {{ end }}
-    </section>
-  </div>
+<section>
+	<ul>
+		{{ range $term := .Data.Pages }}
+		<li><a href="{{ $term.RelPermalink }}">{{ $.Data.Singular | humanize }}: {{ $term.LinkTitle }}</a> ({{ len $term.Pages }} articles)</li>
+		{{ end }}
+	</ul>
+</section>
 {{ end }}
