@@ -1,41 +1,43 @@
 {{ define "header" }}
-  {{ partial "page-header.html" . }}
+{{ partial "page-header.html" . }}
 {{ end }}
 
 {{ define "main" }}
-  {{ $section := .Site.GetPage "section" .Section }}
-  <aside class = "currentPage">
+{{ $section := .Site.GetPage "section" .Section }}
+<aside class = "currentPage">
 	You are viewing a single post.
-  </aside>
-  <article>
-	  {{ partial "post-header.html" . }}
+</aside>
+<article>
+	{{ partial "post-header.html" . }}
 
 	{{ if .Params.featured_image_credit }}
 	<aside class = "featuredImageCredit">
 		Featured image by <a href = "{{ .Params.featured_image_url }}">{{ .Params.featured_image_credit }}</a>
 	</aside>
 	{{ end }}
-    <div>
-      {{- .Content -}}
-      {{- partial "tags.html" . -}}
+	<div>
+		{{- .Content -}}
+	</div>
 
-      <div>
-      {{ if .Site.DisqusShortname }}
-        {{ template "_internal/disqus.html" . }}
-      {{ end }}
-      </div>
-    </div>
+</article>
 
-    <aside>
-      {{- partial "menu-contextual.html" . -}}
-    </aside>
+<aside>
+	<h3>Tags</h3>
+	{{- partial "tags.html" . -}}
 
-  </article>
+	<div>
+		{{ if .Site.DisqusShortname }}
+		{{ template "_internal/disqus.html" . }}
+		{{ end }}
+	</div>
+</aside>
 
-  {{ if .Params.Medium }}
-  <aside>
-  <p>This article is also published on <a href = "{{ .Params.Medium }}">Medium.com</a>.</p>
-  </aside>
-  {{ end }}
+{{- partial "menu-contextual.html" . -}}
+
+{{ if .Params.Medium }}
+<aside>
+	<p>This article is also published on <a href = "{{ .Params.Medium }}">Medium.com</a>.</p>
+</aside>
+{{ end }}
 
 {{ end }}

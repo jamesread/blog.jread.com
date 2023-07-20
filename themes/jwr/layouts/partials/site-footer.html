@@ -1,9 +1,7 @@
 <footer role="contentinfo">
-  <div>
-  <a href="{{ .Site.Home.Permalink }}" >
-    &copy; {{ with .Site.Copyright | default .Site.Title }} {{ . | safeHTML }} {{ now.Format "2006"}} {{ end }}
-  </a>
-    <div>{{ partial "social-follow.html" . }}</div>
-  </div>
-  <p>Unless otherwise specified, content (the blog text) is licensed, code is licensed AGPLv3. </p>
+	<p>&copy; {{ with .Site.Copyright | default .Site.Title }} {{ . | safeHTML }} {{ now.Format "2006"}} {{ end }}</p>
+
+	<div>{{ partial "social-follow.html" . }}</div>
+
+	<aside>Unless otherwise specified, content (the blog text) is licensed, code is licensed AGPLv3. </aside>
 </footer>

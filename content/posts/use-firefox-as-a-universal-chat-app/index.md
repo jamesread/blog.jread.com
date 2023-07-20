@@ -110,7 +110,9 @@ Lastly, you might be wondering how to minimize the sidebar to make it so thin. I
 
 You will probably get a prompt asking if you want to allow remote debugging. Allow it — it’s only listening on localhost. Lastly, in this **Browser Toolbox** window/sidebar, switch to the “**Console**” tab, and enter this JavaScript;
 
-    document.querySelector("#sidebar").style.minWidth = "1em"
+```
+document.querySelector("#sidebar").style.minWidth = "1em"
+```
 
 You should now be able to resize the sidebar to be much thinner than is normally allowed — making it quite pretty for using as chat.
 

@@ -109,7 +109,7 @@ article img {
 }
 
 aside.featuredImageCredit {
-  color: gray;
+  color: #666;
   text-align: center;
   display: block;
   margin-top: -1em;
@@ -147,6 +147,10 @@ ul.tags li a {
 
 ul.tags li a:hover {
   background-color: black;
+}
+
+ul.related {
+  list-style: disc;
 }
 
 aside.currentPage {

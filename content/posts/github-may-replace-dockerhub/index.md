@@ -10,6 +10,7 @@ tags:
   - cloud
   - containers
 featured_image: containers.jpg
+featured_image_caption: A large stack of shipping containers.
 featured_image_credit: Teng Yuhong
 featured_image_url: https://unsplash.com/@live_for_photo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
 ---

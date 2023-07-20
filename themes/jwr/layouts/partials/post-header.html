@@ -17,7 +17,7 @@
 {{ if $featured_image }}
   <div>
     <a href="{{.RelPermalink}}">
-    <img src="{{ $featured_image }}" class = "featured" />
+		<img src="{{ $featured_image }}" class = "featured" title = "{{ .Params.featured_image_caption | default "Sorry, this image does not have a title." }}" />
     </a>
   </div>
 {{ end }}
