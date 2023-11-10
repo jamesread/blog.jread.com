@@ -10,7 +10,7 @@ tags:
   - architecture
 ---
 
-A fault domain (or [failure domain](https://en.wikipedia.org/wiki/Failure_domain)) is essentially a set of resources, or components that share a common point of failure. One example of this is an Azure Availability Zone, or your own single Data Center. Typical single points of failure are power (with no backup generator), or cooling, or if that datacenter is served by a single network connection - then the network connection would be a single point of failure.
+A fault domain (or [failure domain](https://en.wikipedia.org/wiki/Failure_domain)) is essentially a set of resources, or components that share a common point of failure. One example of this is an Azure Availability Zone, or your own single Data Center. Typical points of failure for a fault domain are power (with no backup generator), or cooling, or a datacenter is served by a single network connection. The term "fault domain" could theoretically be applied to smaller areas of an application architecture, like a single network, or a rack of servers, but this article considers a fault domain more from a cloud architecture definition.
 
 The public clouds encourage customers to design their application architecture to be aware of these fault domains. A highly available application in Fault Domain A (for example, Azure Availability Zone 1), should not depend on any components in Fault Domain B (for example, Azure Availability Zone 2). If you do depend on components across fault domains, this dependency is called a "bridge" - hence, you are bridging fault domains, and reducing the overall availability of the application down from two (or more) domains, down to a single domain.
 
