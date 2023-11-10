@@ -2,7 +2,7 @@
 title: "Freedom from Google Photos: taking 18 years and 80gb out of the cloud"
 date: 2023-11-04T16:04:00+01:00
 draft: false
-featured_image_caption: https://www.oreilly.com/library/view/ansible-up-and/9781098109141/
+featured_image_caption: No Google, I don't want to add photos.
 tags:
   - cloud
 ---
