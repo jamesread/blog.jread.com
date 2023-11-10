@@ -1,7 +1,7 @@
 ---
 title: "Bridging fault domains"
 date: 2023-11-06T09:24:00+01:00
-draft: true
+draft: false
 featured_image_caption: This is the first time I found out about .avif files. Pretty, and small.
 featured_image_credit: Mohamed Thasneem
 featured_image_url: https://unsplash.com/@thanni?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash
