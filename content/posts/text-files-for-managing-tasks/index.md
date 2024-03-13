@@ -8,7 +8,7 @@ tags:
 
 I am so sick and tried of changing task management systems, I will just be using plain .txt files from now on.
 
-In the last 10 years, I have tried so many different systems for organising my work and my personal life. I have tried so many task trackers, and after all this time I think I've finally come to the realisation that they all suffer from the same inadequacies. I have used; RememberTheMilk (~2011), Trello, Google Keep (~2015), Google Tasks (~2022), Todoist (~2018 I think, but again in ~2023), and of course, because I am developer with a hammer (ie: the ability to write code), I had to write my own - [wacky-tracky](https://github.com/wacky-tracky/wacky-tracky-client-html5/). I have probably had the most all around success with TaskWarrior.
+In the last 10 years, I have tried so many different systems for organising my work and my personal life and yet I've not been able to keep using one of them after a few weeks or months. After all this time I think I've finally come to the realisation that they all suffer from the same inadequacies. Before anybody recommends me their favourite, here is a list of apps I've tried; RememberTheMilk (~2011), Trello, Google Keep (~2015), Google Tasks (~2022), Todoist (~2018 I think, but again in ~2023), and of course, because I am developer with a hammer (ie: the ability to write code), I had to write my own - [wacky-tracky](https://github.com/wacky-tracky/wacky-tracky-client-html5/). I have probably had the most all around success with TaskWarrior (until recently).
 
 All of these options have the following flaws and limitations;
 
