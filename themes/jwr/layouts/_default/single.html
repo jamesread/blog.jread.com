@@ -10,7 +10,7 @@
 <article>
 	{{ partial "post-header.html" . }}
 
-	{{ if .Params.featured_image_credit }}
+	{{ if and .Params.UseFeaturedImages .Params.featured_image_credit }}
 	<aside class = "featuredImageCredit">
 		Featured image by <a href = "{{ .Params.featured_image_url }}">{{ .Params.featured_image_credit }}</a>
 	</aside>

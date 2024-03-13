@@ -9,6 +9,7 @@ params:
   author: "James Read"
   githubuser: "jamesread"
   description: "James Read's Code, Containers & Cloud blog"
+  useFeaturedImage: false
 
 menu:
   main:
