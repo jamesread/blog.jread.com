@@ -1,5 +1,7 @@
 baseURL: 'http://blog.jread.com/'
 languageCode: 'en-gb'
+author: "James Read"
+copyright: "James Read"
 title: "James Read's Code, Containers & Cloud blog"
 theme: 'jwr'
 
@@ -15,16 +17,26 @@ menu:
   main:
     - name: 'Home'
       pageRef: '/'
-      weight: 99
+      weight: 1
 
     - name: 'Code'
       pageRef: '/tags/code'
+      weight: 2
 
     - name: 'Containers'
       pageRef: '/tags/containers'
+      weight: 3
 
     - name: 'Cloud'
       pageRef: '/tags/cloud'
+      weight: 4
 
-    - name: 'Misc'
-      pageRef: '/tags/misc'
+    - name: 'All Tags'
+      pageRef: '/tags/'
+      weight: 5
+
+    - name: "James' Homepage"
+      pageRef: 'http://jread.com'
+      weight: 6
+      params:
+        class: last

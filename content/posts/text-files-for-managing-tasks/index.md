@@ -4,6 +4,9 @@ date: 2024-02-28
 draft: false
 tags:
   - code
+  - my-tools
+  - vim
+  - git
 ---
 
 I am so sick and tried of changing task management systems, I will just be using plain .txt files from now on.

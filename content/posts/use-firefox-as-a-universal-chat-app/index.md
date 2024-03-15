@@ -4,7 +4,7 @@ date: 2021-07-16T09:47:50+01:00
 draft: false
 featured_image: firefox_chat.png
 tags:
-  - misc
+  - my-tools
 ---
 
 Chat that is always compatible, updated, and integrates with browser extensions.

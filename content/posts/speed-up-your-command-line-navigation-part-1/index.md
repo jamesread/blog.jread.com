@@ -7,7 +7,7 @@ featured_image: cover.jpg
 featured_image_credit: Kevin Ku
 featured_image_url: https://www.pexels.com/@kevin-ku-92347?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels
 tags:
-  - misc
+  - my-tools
 ---
 
 # Speed up your command line navigation

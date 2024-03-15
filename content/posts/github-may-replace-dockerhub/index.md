@@ -3,12 +3,11 @@ title: "GitHub may replace DockerHub"
 date: 2021-12-23
 draft: false
 medium: https://medium.com/gitconnected/github-may-replace-dockerhub-a5da5e547f01
-categories:
-  - Predictions 
 tags:
   - github
   - cloud
   - containers
+  - predictions
 featured_image: containers.jpg
 featured_image_caption: A large stack of shipping containers.
 featured_image_credit: Teng Yuhong

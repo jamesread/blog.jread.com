@@ -4,6 +4,8 @@ date: 2024-01-30
 draft: false
 tags:
   - code
+  - golang
+  - my-tools
 ---
 
 It can be a real effort to bring yourself to write articles to maintain a healthy blog, and sometimes the simple articles are best. Therefore, I just want to take a quick few moments to talk about a tool that I just cannot live without now-a-days, when writing Go code, I am always live-reloading with Air in the background.

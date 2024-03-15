@@ -1,7 +1,9 @@
 <footer role="contentinfo">
-	<p>&copy; {{ with .Site.Copyright | default .Site.Title }} {{ . | safeHTML }} {{ now.Format "2006"}} {{ end }}</p>
+	<p>&copy; {{ .Site.Copyright }}</p>
+
+	<aside>Unless otherwise stated, all content (blog text) is copyrighted to {{ .Site.Copyright }} and cannot be used in any form without written permission.</aside>
+	<br />
+	<aside>Unless otherwise stated, all code is licensed AGPLv3. </aside>
 
 	<div>{{ partial "social-follow.html" . }}</div>
-
-	<aside>Unless otherwise specified, content (the blog text) is licensed, code is licensed AGPLv3. </aside>
 </footer>

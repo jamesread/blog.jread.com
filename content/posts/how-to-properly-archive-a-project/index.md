@@ -4,7 +4,6 @@ date: 2021-07-08
 draft: false
 tags:
   - code
-  - misc
 featured_image: featured.jpg 
 featured_image_credit: Masterfile.com
 ---
