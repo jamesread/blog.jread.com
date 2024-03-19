@@ -6,9 +6,9 @@ tags:
   - containers
   - redhat
 ---
-I've been working at Red Hat for for 13 years, so people will often come to me ask for guidance of where to get started with their Red Hat certification journey. So many people have heard of the RHCE - the Red Hat Certified Engineer exam, which remains one of the most respected IT certifications in the industry, let alone just Linux certifications.
+I've been working at Red Hat for for 13 years, so people will often come to me ask for guidance of where to get started with their Red Hat certification journey. So many people have heard of the RHCE - the Red Hat Certified Engineer exam, which remains one of the most respected IT certifications in the industry, let alone just Linux certifications. 
 
-Many people who come to me have years of Linux experience, but maybe haven't taken a Red Hat certification before, or in a long time, and are looking for recommended next steps. If that is you, then continue reading! 
+Many of these same people have years of Linux experience, but maybe haven't taken a Red Hat certification before, or in a long time, and are looking for recommended next steps. While going straight for RHCE might sound alluring at first, aiming so high is probably an overly ambitious target to start with. If you think this might be you, then continue reading for some tips! 
 
 ## Understand the prefixes and numbers
 
