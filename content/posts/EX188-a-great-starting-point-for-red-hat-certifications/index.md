@@ -30,7 +30,15 @@ The first step in getting started with Red Hat certifications is to understand t
 * **Level 300** - experienced level - (eg: [EX316 - Certified Specialist in OpenShift Virtualization exam](https://www.redhat.com/en/services/training/red-hat-certified-specialist-openshift-virtualization-ex316))
 * **Level 400** - advanced level - (eg: [EX415 - Certified Specialist in Security Linux exam](https://www.redhat.com/en/services/training/ex415-red-hat-certified-specialist-security-linux-exam))
 
-## The Linux Exams
+## Red Hat exams rely on a lot of exam technique
+
+The Red Hat exams are fantastic because they are practical, they test real, hands-on skills. There are no trick questions, however, you need to know some Red Hat exam technique before you start doing the level 200+ courses. This means planning your time, planning which questions to answer, in which order.
+
+For example, you can see that the RHCSA exam requires you to debug boot problems in the exam objective, as well as implement storage configurations. If you cannot do those tasks perfectly, quickly, you're going to automatically lose-out lots of points later in the exam by not being able to do webservers, or similar if your machine won't boot!
+
+This means, if you have not taken an exam before, or recently, **I strongly recommend starting with a more basic exam first.**
+
+## Getting started with Linux exams
 
 Red Hat has an extensive set of courses for Linux, but there are two main exams; Red Hat Certified Administrator (RHCSA) and Red Hat Certified Engineer (RHCE).
 
@@ -41,15 +49,7 @@ A lot of people think that RHCSA is "the easy exam", and RHCE is "the real exam"
 
 However, there is a better place to start!
 
-## Red Hat exams rely on a lot of exam technique
-
-The Red Hat exams are fantastic because they are practical, they test real, hands-on skills. There are no trick questions, however, you need to know some Red Hat exam technique before you start doing the level 200+ courses. This means planning your time, planning which questions to answer, in which order.
-
-For example, you can see that the RHCSA exam requires you to debug boot problems in the exam objective, as well as implement storage configurations. If you cannot do those tasks perfectly, quickly, you're going to automatically lose-out lots of points later in the exam by not being able to do webservers, or similar if your machine won't boot!
-
-This means, if you have not taken an exam before, or recently, **I strongly recommend starting with a more basic exam first.**
-
-## EX188 - Certified Specialist in Containers is an amazing starting point
+### EX188 - Certified Specialist in Containers is an amazing starting point
 
 So, if you need some exam experience, and you want to get started on your Linux journey, consider the EX188 exam. I found that this exam gives a lot of time, it's just a single topic (Containers, which you need to know for RHCSA anyway), and the questions are not easy, but they are straightforward, and don't require a lot of planning to answer (as opposed to RHCSA and RHCE). 
 
