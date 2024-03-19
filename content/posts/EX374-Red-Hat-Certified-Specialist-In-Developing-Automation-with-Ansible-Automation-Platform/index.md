@@ -8,6 +8,7 @@ featured_image_url: https://unsplash.com/photos/4MQtWCxUrYc?utm_source=unsplash&
 tags:
   - certifications
   - redhat
+  - ansible
   - cloud
   - code
 ---
