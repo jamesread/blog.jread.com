@@ -46,7 +46,7 @@ Red Hat has an extensive set of courses for Linux, but there are two main exams;
 
 A lot of people think that RHCSA is "the easy exam", and RHCE is "the real exam" - but that's absolutely no longer true. Since Red Hat acquired Ansible, these exams were restructured quite a bit. Both exams now cover the same range of topics, but it's in how you apply those topics that is the difference.
 
-* **[RHCSA](https://www.redhat.com/en/services/training/ex200-red-hat-certified-system-administrator-rhcsa-exam?section=objectives) is in understanding many Linux concepts**. The best place to start is looking at the exam objectives page for (RHCSA exam)[https://www.redhat.com/en/services/training/ex415-red-hat-certified-specialist-security-linux-exam] and see that it covers the shell, shell scripts, lvm, debugging boot problems, filestems, webservers, containers, and much much more!
+* **[RHCSA](https://www.redhat.com/en/services/training/ex200-red-hat-certified-system-administrator-rhcsa-exam?section=objectives) is in understanding many Linux concepts**. The best place to start is looking at the exam objectives page for the exam and see that it covers the shell, shell scripts, lvm, debugging boot problems, filestems, webservers, containers, and much much more!
 * **[RHCE](https://www.redhat.com/en/services/training/ex294-red-hat-certified-engineer-rhce-exam-red-hat-enterprise-linux-9) is a test of if you can implement these concepts at speed and scacle**, using Ansible. This means you need to know everything in the RHCSA before you have any hope of doing RHCE!
 
 However, there is a better place to start!
