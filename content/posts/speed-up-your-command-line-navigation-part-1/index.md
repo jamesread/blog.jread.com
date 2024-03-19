@@ -7,6 +7,7 @@ featured_image: cover.jpg
 featured_image_credit: Kevin Ku
 featured_image_url: https://www.pexels.com/@kevin-ku-92347?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels
 tags:
+  - linux
   - my-tools
 ---
 
