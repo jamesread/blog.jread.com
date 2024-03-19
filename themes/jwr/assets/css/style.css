@@ -92,6 +92,11 @@ h2 {
   margin: 0;
 }
 
+
+h3 {
+  font-weight: normal;
+}
+
 h2 a {
   text-decoration: none;
   font-weight: normal;
@@ -126,7 +131,7 @@ article img.featured {
   margin: 1em auto 1em auto;
 }
 
-aside {
+footer aside {
   color: #666;
   font-size: smaller;
 }
@@ -155,12 +160,12 @@ pre {
   padding-bottom: 1em;
 }
 
-article ul {
+article ul, ul.related {
   list-style: '\25b9    ';
   list-style-position: outside;
 }
 
-article ul li::marker {
+article ul li::marker, ul.related li::marker {
   color: black;
   font-size: 1.4em;
 }
@@ -192,11 +197,6 @@ ul.tags li a:hover {
 
 ul.tags a:active, ul.tags a:focus, strong.tag {
   background-color: black;
-}
-
-
-ul.related {
-  list-style: disc;
 }
 
 aside.currentPage {

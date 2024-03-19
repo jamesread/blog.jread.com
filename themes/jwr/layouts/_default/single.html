@@ -19,20 +19,21 @@
 		{{- .Content -}}
 	</div>
 
-</article>
+	<aside> 
+		<h2>Tags</h2>
+		<br />
+		{{- partial "tags.html" . -}}
+		<br />
+	</aside>
 
-<aside>
-	<h3>Tags</h3>
-	{{- partial "tags.html" . -}}
+	{{- partial "menu-contextual.html" . -}}
 
 	<div>
 		{{ if .Site.DisqusShortname }}
 		{{ template "_internal/disqus.html" . }}
 		{{ end }}
 	</div>
-</aside>
-
-{{- partial "menu-contextual.html" . -}}
+</article>
 
 {{ if .Params.Medium }}
 <aside>

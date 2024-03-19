@@ -5,11 +5,11 @@
 </div>
 {{- end -}}
 
-{{ $related := .Site.RegularPages.Related . | first 15 }}
+{{ $related := .Site.RegularPages.Related . | first 3 }}
 
 {{ with $related }}
 <aside>
-	<h3>Related</h3>
+	<h2>Related</h2>
 	<ul class="related">
 		{{ range . }}
 		<li>

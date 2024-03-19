@@ -6,9 +6,10 @@ featured_image_caption: https://www.oreilly.com/library/view/ansible-up-and/9781
 featured_image_credit: Daniel Quiceno
 featured_image_url: https://unsplash.com/photos/4MQtWCxUrYc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
 tags:
+  - certifications
+  - redhat
   - cloud
   - code
-  - redhat
 ---
 
 I love Ansible, and I love doing certifications - so this was a no-brainer. In this blog I'll talk about how I prepared, how the exam felt, was it worth it, and at the end I'll even explain why I used a cow image as the cover for this blog post! [^1]
