@@ -199,6 +199,15 @@ ul.tags a:active, ul.tags a:focus, strong.tag {
   background-color: black;
 }
 
+ul.terms {
+  list-style: none;
+  padding: 0;
+}
+
+ul.terms li {
+  margin-bottom: 1em;
+}
+
 aside.currentPage {
   padding-top: 1em;
 }
