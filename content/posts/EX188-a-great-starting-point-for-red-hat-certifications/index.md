@@ -12,6 +12,8 @@ Many of these same people have years of Linux experience, but maybe haven't take
 
 ## Understand the prefixes and numbers
 
+The first step in getting started with Red Hat certifications is to understand the nomenclature.
+
 ### The prefixes roughly indicate content (EX, RH, DO, etc)
 
 * **RH** - just "Red Hat", typically refers to a training course. Most courses are available virtually (vILT - virtual instructor led training), as well as just ILT. For example - [RH124 - Red Hat Systems Administration I](https://www.redhat.com/en/services/training/rh124-red-hat-system-administration-i)
