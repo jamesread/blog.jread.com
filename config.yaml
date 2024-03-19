@@ -40,3 +40,8 @@ menu:
       weight: 6
       params:
         class: last
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

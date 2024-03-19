@@ -58,7 +58,13 @@ So, if you need some exam experience, and you want to get started on your Linux 
 * [EX188 - Red Hat Certified Specialist in Containers exam (exam objectives)](https://www.redhat.com/en/services/training/ex188-red-hat-certified-specialist-containers-exam?section=objectives)
 
 ### What's the first step?
-The first step you should take, **that takes just 5 minutes**, is to go to your exam objectives page ([EX188 objectives page](https://www.redhat.com/en/services/training/ex188-red-hat-certified-specialist-containers-exam?section=objectives)), dump it into a spreadsheet, and go through and highlight each row against how comfortable you are. Red = I don't know this topic at all, Amber = I sort-of know this topic, and Green = I know this topic inside and out. Use that as a visual way to plan your learning journey. If you'd like to see an example about how I do this, check out my article about [how I planned my approach to EX374]({{< relref "../EX374-Red-Hat-Certified-Specialist-In-Developing-Automation-with-Ansible-Automation-Platform" >}}).
+The first step you should take, **that takes just 5 minutes**, is to go to your exam objectives page ([EX188 objectives page](https://www.redhat.com/en/services/training/ex188-red-hat-certified-specialist-containers-exam?section=objectives)), dump it into a spreadsheet, and go through and highlight each row against how comfortable you are. 
+
+* <strong style = "color:red">Red</strong> = I don't know this topic at all.
+* <strong style = "color:orange">Orange</strong> = I sort-of know this topic.
+* <strong style = "color:green">Green</strong> = I know this topic inside and out.
+
+Use that as a visual way to plan your learning journey. If you'd like to see an example about how I do this, check out my article about [how I planned my approach to EX374]({{< relref "../EX374-Red-Hat-Certified-Specialist-In-Developing-Automation-with-Ansible-Automation-Platform" >}}).
 
 ### Useful resources
 
