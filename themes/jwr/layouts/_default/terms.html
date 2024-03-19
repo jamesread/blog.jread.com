@@ -2,7 +2,7 @@
 <section>
 	<ul>
 		{{ range $term := .Data.Pages }}
-		<li><a href="{{ $term.RelPermalink }}">{{ $.Data.Singular | humanize }}: {{ $term.LinkTitle }}</a> ({{ len $term.Pages }} articles)</li>
+		<li><a href="{{ $term.RelPermalink }}">{{ $term.LinkTitle }}</a> - {{ len $term.Pages }} {{ if eq (len $term.Pages) 1 }}article{{ else }}articles{{ end }}</li>
 		{{ end }}
 	</ul>
 </section>
