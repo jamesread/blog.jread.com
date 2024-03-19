@@ -32,11 +32,13 @@ The first step in getting started with Red Hat certifications is to understand t
 
 ## Red Hat exams rely on a lot of exam technique
 
-The Red Hat exams are fantastic because they are practical, they test real, hands-on skills. There are no trick questions, however, you need to know some Red Hat exam technique before you start doing the level 200+ courses. This means planning your time, planning which questions to answer, in which order.
+The Red Hat exams are fantastic because they are practical, they test real, hands-on skills. There are no trick questions, however, you need to know some Red Hat exam technique before you start doing the level 200+ exams. This means planning your time, planning which questions to answer, in which order.
 
 For example, you can see that the RHCSA exam requires you to debug boot problems in the exam objectives, as well as implement storage configurations. If you cannot do those tasks perfectly, quickly, you're going to automatically lose-out lots of points later in the exam by not being able to do webservers, or similar if your machine won't boot!
 
-This means, if you have not taken an exam before, or recently, **I strongly recommend starting with a more basic exam first.**
+You also need to know how to be efficient in the virtual exam environment, how to use the GNOME3 desktop, how to setup keyboard and terminal shortcuts/preferences (eg, dark mode) that will make your exam go much more smoothly and more comfortably.
+
+This means, if you have not taken an exam before, or recently, **I strongly recommend starting with a more basic exam first**, just so that you get familiar with Red Hat exam technique. 
 
 ## Getting started with Linux exams
 
