@@ -6,6 +6,8 @@ tags:
   - ai
 ---
 
+This is a blog post written as a summary of notes, following my learnings from an AI course I completed back in 2019 that I feel is still incredibly relevant in 2024]({{ rel  '../how-useful-way-my-ai-short-course-from-2019/' }}).
+
 AI is a huge field with an expansive history extending over the last century, it might be easy to be fooled into thinking thay AI was just something we found in the last 5 years. However, the recent surge of interest cannot be ignored - popularized by easy and cheap access to incredibly sophisticated models like ChatGPT.
 
 Deep learning is specifically the area of AI which is under explosive growth, in what we're called the modern era of AI (2005+). Deep learning is a subset of machine learning, which has been enabled by a surge in processing power and the ability to store and process huge amounts of data. While the previous century of AI - the early days, were targeted at building perfect models (expert systems, etc), modern approaches to training AI are effectively showing the AI lots of "good results", and then iterating billions of times to build a neural network - which means we are inferring the AI model from those good results.

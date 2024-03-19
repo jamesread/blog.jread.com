@@ -155,6 +155,16 @@ pre {
   padding-bottom: 1em;
 }
 
+article ul {
+  list-style: '\25b9    ';
+  list-style-position: outside;
+}
+
+article ul li::marker {
+  color: black;
+  font-size: 1.4em;
+}
+
 ul.tags {
   list-style: none;
   margin: 0;
