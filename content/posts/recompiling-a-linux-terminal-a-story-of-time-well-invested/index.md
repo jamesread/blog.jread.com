@@ -1,6 +1,6 @@
 ---
 title: Recompiling a Linux terminal — a story of time well invested
-date:2021-02-08
+date: 2021-02-08
 tags:
   - my-tools
 ---
