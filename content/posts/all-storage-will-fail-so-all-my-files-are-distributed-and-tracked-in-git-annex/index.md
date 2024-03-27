@@ -1,83 +1,97 @@
 ---
-title: My desk has 6 monitors
-date: 2021-03-12
+title: All storage will fail, so all my files are distributed & tracked in Git Annex. ❤
+date: 2021-01-19
 tags:
   - my-tools
+  - git
+featured_image: ![Photo by [**Markus Spiske](https://www.pexels.com/@markusspiske?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)** from [**Pexels](https://www.pexels.com/photo/space-apple-broken-technology-2644598/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)**](https://cdn-images-1.medium.com/max/3760/1*Nrhal9MO7DcLlRJ9RIXHrQ.jpeg)*Photo by [**Markus Spiske](https://www.pexels.com/@markusspiske?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)** from [**Pexels](https://www.pexels.com/photo/space-apple-broken-technology-2644598/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)***
 ---
 
-I want to explain how I use this setup, and how I got here. Perhaps I will encourage you, to experiment with your desk and workflow.
+## I am paranoid about data loss
 
-![6 monitors.](https://cdn-images-1.medium.com/max/9216/1*G5zh2d-GCF1QjAVoPsDyiw.jpeg)*6 monitors.*
+In the past, I have lost files. It pains me that I cannot get back some of my early files from my first PCs and computers. I've had corrupt disks. Typos in disk format commands. Busted RAID controllers, and I've been permanently locked out of cloud storage access, etc. I can’t stop any of that happening again, but I refuse to lose any more data because I thought I could trust the storage.
 
-Pictured above, is my desk. It does indeed have 6 monitors. It also has 4 computers with 3 operating systems (2x Linux, 1x Windows — for gaming, 1x Mac — for iOS development).
+This is so important now that so much of the important stuff is only digital. I don’t think I’ve ever permanently lost family or holiday photos, thankfully — but so many, including my wedding photos, photos of my newborn baby, if the digital copies are lost, then they are lost forever.
 
-I don’t intend to brag, or show off, or try and say that this set-up is absolutely essential for me and that nothing else would work. However, it certainly **works for me**. This is what I naturally got to after lots of experimenting over the years. I certainly don’t think having lots of monitors is right for many people — certainly 1 large 4k ultra wide monitor is a very popular option for many people now-a-days.
+## Don’t talk to me about Google Photos, RAID, etc.
 
-**This set-up was really cheap**. These are all relatively low resolution monitors — most of them second hand. The computers are also all pretty old. This also isn’t something I did over night. This took me 15+ years of iteration and development to get here — I started with 1 machine and 1 monitor! I’ll go into the history later in this post.
+They’re not backup solutions — they’re single points of failure with a false sense of security.
 
-## Overview
+**How to lose data with RAID;**
 
-![This is everything at an overview level.](https://cdn-images-1.medium.com/max/2000/1*GkYIyDibTKanVH2KTP0ZcA.png)*This is everything at an overview level.*
+* [Your controller starts writing junk](https://www.diskinternals.com/raid-recovery/how_to/).
 
-Under the headings below, I go into more details.
+* [Your power supply blows up and takes the motherboard, controller, or multiple disks with it](https://linustechtips.com/uploads/monthly_2018_10/IMG_2131.jpeg.e3cbf5a6160d2610e85bc9b2556bbf96.jpeg).
 
-## **Heads Up display — “overseer”**
+* [You spill coffee over your precious NAS](https://i.ytimg.com/vi/9GGnua2kUF0/hqdefault.jpg).
 
-**Specs:** Linux (Fedora), Tiny “NUC” style, 2Ghz CPU, 4Gb RAM**
-Monitors: **2 via dual HDMI on the motherboard
+* [Your NAS tries to float when your house floods](https://image.bayimg.com/caakgaadl.jpg).
 
-![](https://cdn-images-1.medium.com/max/2000/1*2JzfT8DDYTS5v3b_yF-yDQ.png)
+* You get bitrot, or ransomware, or you type something stupid and corrupt your files.
 
-**Usage: **Linux Heads Up Display (2 monitors), runs Grafana and News. These are generally turned on 24/7. I quickly glance at these when something obviously looks interesting or wrong!
+**How to lose data with Google photos/drive;**
 
-I don’t have a keyboard or mouse attached to this machine, so if I notice something, I’ll load it up on my main workstation to look at it in more detail. These monitors obviously refresh every 60 seconds or so. Not too distracting.
+* Google photos does not store your original files anyway (it strips location and camera information if you download the file again).
 
-## **Main Workstation-”mindstorm”**
+* Your Google account gets banned, hacked, or locked out.
 
-**Specs: **Linux (Fedora), “Full Tower” style, 16Gb RAM, i5–2500k**
-Monitors: **4 via NVidia 1660 (4x hdmi/displayport)
+* [Google decides to delete some of your photos, or loses files](https://support.google.com/drive/thread/18490916?hl=en).
 
-![](https://cdn-images-1.medium.com/max/2000/1*2fNekCyuYli92W_5YEQVSg.png)
+* You accidently delete a file or folder.
 
-**Usage:** This is what I use for work, for development, for conference calls, everything really. This “upside down T” shape works really nicely for me, because I have 3x monitors lined up in a row at teh bottom, and work tends to flow nicely from left and right to the centre monitor. All of these are easily in my field of view. I can obviously drag windows (or tile them, as I use a tiling window manager) across any of these 4 monitors.
+**This goes for every other storage solution. **ZFS, Ceph, S3, Tape, SSDs. They all have single points of failure. Yep, even stuff like S3 and Ceph — get your account banned on S3? Your Ceph servers physically catch fire? Yep.
 
-The top monitor is outside of my field of view, and I place videos, webinars, conference calls on there, so I can get on with work on the bottom monitors while those play out on the top monitor.
+## So, what does Git Annex do?
 
-## Single monitor — Windows (gaming), Mac (iOS Development)
+Git calls itself a “[stupid content tracker](https://git-scm.com/docs/git)”.
 
-**Specs: **Mac is a Mac Mini. 8Gb RAM I think, running the latest MacOS (probably!). The Windows Machine also has a NVidia 1660s, 16Gb RAM, and a fancy i5. **
-Monitors: **Both single-monitor workloads
+Git Annex calls itself a “[stupid filename and metadata tracker](https://git-annex.branchable.com/how_it_works/)”.
 
-![](https://cdn-images-1.medium.com/max/2000/1*NFgu04JuZOH6NUm3zQFdOQ.png)
+[Git Annex is not a backup tool](https://git-annex.branchable.com/not/), or a better storage system. It just can be used to as a really awesome way to track (and copy, check, etc) files across lots of different types of storage.
 
-**Usage: **Windows games (Steam), writing apps for iOS on the Mac. I go through phases of using these machines for a few days at a time before I go back to other projects!
+Putting it simply, using Git Annex, you can add files (in particular, large files), that don’t have to be pulled down in every place where you clone the repository. However, you can **track exactly in which** repos you have those files. Let me show by example;
 
-## The history
+    user@host: **git annex whereis "2019-10 Wedding/IMG001.jpg"**
+    whereis 2019-10 Wedding/IMG001.jpg (6 copies)
+      2a85a996-5601-42ee-a5eb-637ab9fcd869 -- HDD-home-storinator-SN-ABC
+      e0156b12-7b3f-4697-aebb-4de7456890f1 -- SSD-home-mindstorm-SN-XYZ
+      ff4a9c3f-435b-4d13-be85-0b8d1e4631a3 -- HDD-storageunit-SN-QQR
+      d2e9ee3e-49bf-4600-bd49-0ed5dc089373 -- AWS-S3-Glacier-account-foo
+      7e215541-7715-4490-b3ad-afd8d4e8c10f -- LTO-00000083
+      1a4afe67-b5bd-49dc-bb9e-83d0ac1d9bd9 -- LTO-00000413
 
-If you’d like to know how I got here, here is the history.
+Yep. My wedding photos are backed up onto 4 different mediums (HDD, SSD, AWS and LTO), in 3 different locations (home, cloud, storage unit).
 
-### **Going dual monitor**
+Git annex allows me to name each repository that I clone, and here’s how I name them;
 
-My first machine was a 266mhz Pentium II, with a 17 inch (or probably 15 inch) CRT monitor. I resisted the switch to the early “flat screen” monitors for such a long time — the early TFT monitors with 16ms respond times (or longer) were just awful to look at. I think that my first flat screen was 17". The Radeon Pro graphics card that I bought during an upgrade had a VGA _and_ ad DVI connection. I instantly wanted two monitors!
+* **Servers**; **<disk type (HDD or SSD)>**-**<server name>**-**<disk serial>** For example; HDD-home-storinator-SN-ABC . that’s Hard Drive, at home, in a server called “storinator”, with a disk serial number starting “ABC….”. I don’t want to publish my real disk serial numbers on the internet.
 
-I spent a few hundred £££ during University in 2006 to upgrade to 2 monitors. At the time I was doing a lot of coding and game development, and I found a HUGE productivity increase — I think it was probably doubled.
+* **Cold storage (my storage unit); **Very similar to servers; **<disk type>**-storageunit-**<disk serial>**
 
-### Adding a third monitor
+* **Cloud; <AWS/Azure/GCP/etc>**-**<service (eg: S3)>**-**<username/account number to login>**
 
-I thought it would be ridiculous to go to 3 monitors, but a bonus at work in my first job, in about 2009, meant that I bought a 24" Illyama screen — that is still running just great today as my main monitor.
+Note: LTO is Linear Tape. Yep, I backup everything to tape as well. Cold Storage is so useful when a server blows up.
 
-Is my productivity increased now 3x compared to 1 monitor? No. Absolutely not. The increase in productivity from 1 monitor to 2 monitors is massive — almost doubled. However the addition of the 3rd monitor is just a little convenience. I used it for video, films, media and similar — especially as it combined nicely with the two smaller monitors each side. It made things symmetrical.
+## Other essential reasons I use Git Annex;
 
-### 4 monitors?!
+* It “fails open”. My files are just regular files/symlinks on a filesystem. There’s no “magic”, or proprietary database. This means I’m not too concerned if Git annex development stops, or more importantly, if I want to get files off a LTO tape in 10 years.
 
-The 4th monitor, again, came by accident. Someone was literally throwing it away on a forum, and I had just upgraded to monitor arms. I chose to but the extended, large monitor arms, and it meant there was a large pokey-out bit coming from the top of my monitor. I thought, what the hell, let’s add another and see where it takes me.
+* There is no central point of failure — there is no index server that needs to stay online, any cloned repository has a full list of files.
 
-## Summary — Would I recommend this setup?
+* It works with offline storage (eg, LTO tapes, HDDs in a storage unit) super easily.
 
-Nope — because you probably don’t have the same setup and workflow as me. Your needs no doubt are different. For video editing for example, it’s highly unlikely to need to use all these low resolution monitors.
+* For old photos or files I don’t need often, I can just “drop” them from my servers and workstations to save storage space, knowing that there are safe copies on tape, in the cloud, or elsewhere. Git Annex tracks this for me.
 
-I’m certainly not saying I am uniquely qualified for using this setup, either. There are many other people with similar setups.
+* It’s Open Source and seems pretty stable. Linux support.
 
-I would encourage you to think about what you can do to evolve your workstation and desk space to make better use of your productivity.
+* As a hobbyist developer, I’m already super familiar with Git.
 
-The setup I’ve described here is unlikely to stay the same over the next 3–5 years, I intend to evolve and change things as my needs and workflow change.
+* It’s design philosophy is not to do too much (although it supports BitTorrent, Glacier, etc via the native clients if they’re installed locally).
+
+* It works with basically any storage because it doesn’t use any magic — AWS, LTO tapes, HDDs, whatever.
+
+* It’s super easy to track how many copies of a file I have, and where they are. If used properly, it will stop me deleting a file locally if it’s the last copy (or if I’ve told Git Annex to keep at least 3, or 5 copies).
+
+## Summary;
+
+All storage has single points of failure. I use Git Annex because I don’t trust any storage, and because it’s so good at tracking files, it really helps me implement a [3–2–1 backup strategy](https://en.wikipedia.org/wiki/Backup).
