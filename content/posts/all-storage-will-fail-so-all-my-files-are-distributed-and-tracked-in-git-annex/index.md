@@ -11,11 +11,11 @@ This post is about how, and why, I use Git Annex to implement my [3-2-1](https:/
 
 ## I am paranoid about data loss
 
-In the past, I have lost files. It pains me that I cannot get back some of my early files from my first PCs and computers. I've had corrupt disks. Typos in disk format commands. Busted RAID controllers, and I've been permanently locked out of cloud storage access, etc. I can’t stop any of that happening again, but I refuse to lose any more data because I thought I could trust the storage.
+In the past, I have lost files. It pains me that I cannot get back some of my early files from my first PCs and computers. I've had hard drives that just suddenly refuse to start up again. I have made typos in disk format commands. I have had busted RAID controllers that spew total garbage over the filesystem. I've been permanently locked out of cloud storage access (or, more likely, the cloud provider suddenly has security issues or starts deleting original files - looking at you, Google Photos). I can’t stop any of that happening again, and I refuse to lose any more data because I thought I could trust one form of storage over another.
 
-This is so important now that so much of the important stuff is only digital. I don’t think I’ve ever permanently lost family or holiday photos, thankfully — but so many, including my wedding photos, photos of my newborn baby, if the digital copies are lost, then they are lost forever.
+Preventing data loss ever again only gets more important with age - age you accumulate more files, and memories. So many critical files are only digital now - they cannot be rescanned or recovered from physical copies, because there are no physical copies. I'm talking about pension documents, bank statements, documentation from buying houses, and most importantly, my family photos. Thankfully, I don’t think I've ever permanently lost family or holiday photos, but I cannot afford to take a risk with most of those digital-only files; so many, including my wedding photos, photos of my children - if the digital copies are lost, then they are lost forever.
 
-## Don’t talk to me about Google Photos, RAID, etc.
+## All storage will fail - from Google Photos to RAID
 
 They’re not backup solutions — they’re single points of failure with a false sense of security.
 
@@ -41,7 +41,13 @@ They’re not backup solutions — they’re single points of failure with a fal
 
 * You accidently delete a file or folder.
 
-**This goes for every other storage solution. **ZFS, Ceph, S3, Tape, SSDs. They all have single points of failure. Yep, even stuff like S3 and Ceph — get your account banned on S3? Your Ceph servers physically catch fire? Yep.
+**This goes for every other storage solution. **ZFS, Ceph, S3, Tape, SSDs. They all have single points of failure. Yep, even stuff like S3 and Ceph — get your account banned on S3? Your Ceph servers physically catch fire? Yep. You need a 3-2-1 backup strategy, no matter what storage you are using.
+
+## What is hard about implementing a 3-2-1 backup strategy?
+
+Tracking files. That is the hard bit. You can say that you need at least 3 copies of each file, but how do you know where they are? If you are just copying files and relying on manual processes, manual tracking, you're going to get caught out sooner or later. If you have files that are replicated off-site, it's a pain to check exactly which files are in which place, off site.
+
+So, we know we need at least a 3-2-1 backup strategy, and we know that tracking is the hard bit. Here's where we introduce our superhero: Git Annex.
 
 ## So, what does Git Annex do?
 
@@ -73,6 +79,12 @@ Git annex allows me to name each repository that I clone, and here’s how I nam
 * **Cloud; <AWS/Azure/GCP/etc>**-**<service (eg: S3)>**-**<username/account number to login>**
 
 Note: LTO is Linear Tape. Yep, I backup everything to tape as well. Cold Storage is so useful when a server blows up.
+
+## But isn't Git for developers?
+
+Git isn't just for developers - modern day infrastructure and sysadmin uses GitOps as much as developers use Git for tracking source code.
+
+Git is the perfect tool for the job, that is open source, widely used, incredibly widely tested, it's robust, and readily available everwhere. Git Annex is an elegant extension of that concept.
 
 ## Other essential reasons I use Git Annex;
 
