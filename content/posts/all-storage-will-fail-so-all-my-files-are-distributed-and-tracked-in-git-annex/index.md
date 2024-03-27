@@ -7,7 +7,13 @@ tags:
 featured_image: ![Photo by [**Markus Spiske](https://www.pexels.com/@markusspiske?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)** from [**Pexels](https://www.pexels.com/photo/space-apple-broken-technology-2644598/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)**](https://cdn-images-1.medium.com/max/3760/1*Nrhal9MO7DcLlRJ9RIXHrQ.jpeg)*Photo by [**Markus Spiske](https://www.pexels.com/@markusspiske?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)** from [**Pexels](https://www.pexels.com/photo/space-apple-broken-technology-2644598/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)***
 ---
 
-This post is about how, and why, I use Git Annex to implement my [3-2-1](https://en.wikipedia.org/wiki/Backup) backup strategy (which is actually more like a 8-5-3 strategy). This strategy should mean that I should not ever lose files that I care about ever again.
+This post is about how, and why, I use Git Annex to implement my [3-2-1 backup strategy](https://en.wikipedia.org/wiki/Backup) backup strategy. In summary, that is;
+
+* At least 3 copies of the data
+* In at least 2 different storage mediums
+* With at least 1 copy offsite
+
+In practicality, I've used Git Annex  to implement more like a 9-5-3 backup strategy and track everything nicely. This strategy should mean that I should not ever lose files that I care about ever again.
 
 ## I am paranoid about data loss
 
