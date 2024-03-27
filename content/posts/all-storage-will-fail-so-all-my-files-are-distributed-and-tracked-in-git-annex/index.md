@@ -7,6 +7,8 @@ tags:
 featured_image: ![Photo by [**Markus Spiske](https://www.pexels.com/@markusspiske?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)** from [**Pexels](https://www.pexels.com/photo/space-apple-broken-technology-2644598/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)**](https://cdn-images-1.medium.com/max/3760/1*Nrhal9MO7DcLlRJ9RIXHrQ.jpeg)*Photo by [**Markus Spiske](https://www.pexels.com/@markusspiske?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)** from [**Pexels](https://www.pexels.com/photo/space-apple-broken-technology-2644598/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)***
 ---
 
+This post is about how, and why, I use Git Annex to implement my [3-2-1](https://en.wikipedia.org/wiki/Backup) backup strategy (which is actually more like a 8-5-3 strategy). This strategy should mean that I should not ever lose files that I care about ever again.
+
 ## I am paranoid about data loss
 
 In the past, I have lost files. It pains me that I cannot get back some of my early files from my first PCs and computers. I've had corrupt disks. Typos in disk format commands. Busted RAID controllers, and I've been permanently locked out of cloud storage access, etc. I can’t stop any of that happening again, but I refuse to lose any more data because I thought I could trust the storage.
