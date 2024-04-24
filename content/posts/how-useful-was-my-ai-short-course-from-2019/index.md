@@ -6,11 +6,13 @@ tags:
   - ai
 ---
 
-In 2019 I could see that AI was a technology gaining increasing interest and relevance, and I was keen to get ahead of the hype and start learning more. At the time I was feeling like my day to day routine was getting a bit boring, and too familiar, and I wanted to make sure I had a solid grasp of what I thought would become a fundamental building block of technology for the future, and I decided to take a course on the topic of AI. Despite anticipating it's increased importance in our day to day lives, I absolutely did not anticipate just how big AI would be just 5 years later - in 2024! Technologies like ChatGPT have become readily available to everyone, and they seem like modern day magic, and we're still in our AI infancy of what's to come.
+In 2019 I could see that AI was a technology gaining increasing interest and relevance, and I was keen to get ahead of the hype and start learning more. At the time I was feeling like my day to day routine was getting a bit boring, and too familiar, and I wanted to make sure I had a solid grasp of what I thought would become a fundamental building block of technology for the future, and I decided to take a course on the topic of AI. 
+
+Despite anticipating it's increased importance in our day to day lives, I absolutely did not anticipate just how big AI would be just 5 years later - in 2024! Technologies like ChatGPT have become readily available to everyone, and they seem like modern day magic, and we're still in our AI infancy of what's to come.
 
 Over the next few years, it seems almost inevitable just how pervasive AI will become. Looking at 2024, AI takes up a huge amount of news airtime and software roadmaps, and it shows no chance of slowing down, or the hype bubble popping anytime soon.
 
-Despite AI being a topic that is constantly changing and evolving, I'm delighted that the course I took back in 2019 continues to be relevant today. Looking at the content and structure of this course, you can see it taught AI concepts (which have aged well), rather than AI technologies (which would have aged poorly). Let's look at the 6 modules included in this short course.
+Even though AI is a topic that is constantly changing and evolving, I'm delighted that the course I took back in 2019 continues to be relevant today. Looking at the content and structure of this course, you can see it taught AI concepts (which have aged well), rather than AI technologies (which would have aged poorly). Let's look at the 6 modules included in this short course.
 
 * Module 1: Artificial intelligence: What is all the hype about?
 * Module 2: AI's engine room: how do machines learn?
