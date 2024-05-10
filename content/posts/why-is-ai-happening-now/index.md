@@ -3,7 +3,7 @@ title: "Why is AI happening NOW?"
 date: 2024-03-18
 draft: false
 tags:
-  - ai
+  - AI
 ---
 
 This is a blog post written as a summary of notes, following my learnings from an AI course I completed back in 2019 that I feel is still incredibly relevant in 2024]({{ rel  '../how-useful-way-my-ai-short-course-from-2019/' }}).
