@@ -3,9 +3,9 @@ title: "Prometheus: My Life in a Time Series Database"
 date: 2024-08-19T23:24:16+01:00
 draft: false
 tags:
-	- prometheus
-	- homeops
-	- monitoring
+  - prometheus
+  - homeops
+  - monitoring
 ---
 
 I aggressively use Prometheus in my day-to-day life, not just for regular technical and application metrics, but for everything I can get an exporter for.
