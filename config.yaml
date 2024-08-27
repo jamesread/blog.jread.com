@@ -5,6 +5,18 @@ copyright: "James Read"
 title: "James Read's Code, Containers & Cloud blog"
 theme: 'jwr'
 
+outputs:
+  home:
+    - html
+    - rss
+  section:
+  - html
+    - rss
+  taxonomy:
+    - html
+  term:
+    - html
+
 params:
   favicon: logo.png
   logo: "logo.png"
