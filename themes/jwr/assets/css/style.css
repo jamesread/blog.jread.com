@@ -213,3 +213,11 @@ aside.currentPage {
   padding-top: 1em;
 }
 
+ul.pagination {
+  list-style: none;
+}
+
+ul.pagination li {
+  display: inline-block;
+}
+
