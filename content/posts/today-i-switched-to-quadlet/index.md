@@ -3,6 +3,9 @@ title: "Today I switched to Quadlet to start Linux containers"
 date: 2024-09-01T21:08:02+01:00
 tags:
   - today-i-switched
+  - containers
+  - linux
+  - homeops
 ---
 
 This post is written simply for myself to mark the date when I fully decided to ditch Ansible's `containers.podman.podman_containers`, and Podman's nasty port of `docker-compose`, in favour of Quadlet. Hopefully this page can serve as a useful reference for others considering the same move.
