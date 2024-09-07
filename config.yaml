@@ -25,7 +25,7 @@ params:
   description: "James Read's Code, Containers & Cloud blog"
   useFeaturedImage: false
   images:
-    - "/socialShareImage.png"
+    - "/socialShareImage.jpg"
 
 menu:
   main:
