@@ -1,4 +1,4 @@
-baseURL: 'http://blog.jread.com/'
+baseURL: 'https://blog.jread.com/'
 languageCode: 'en-gb'
 author: "James Read"
 copyright: "James Read"
@@ -25,7 +25,7 @@ params:
   description: "James Read's Code, Containers & Cloud blog"
   useFeaturedImage: false
   images:
-    - "/socialShareImage.jpg"
+    - "/socialSharePreview.jpg"
 
 menu:
   main:
