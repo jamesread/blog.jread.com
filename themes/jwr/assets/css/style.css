@@ -43,7 +43,7 @@ nav ul li.last {
 }
 
 a {
-  color: #36f;
+  color: #0060C7;
   font-weight: bold;
   text-decoration: none;
 }
@@ -186,14 +186,14 @@ ul.tags li a, .tag {
   font-family: sans;
   padding: .5em;
   margin-right: .5em;
-  background-color: #007bff;
+  background-color: #0060C7;
   color: white;
   text-decoration: none;
   border-radius: .8em;
 }
 
 ul.tags li a:hover {
-  background-color: #0056b3;
+  background-color: #00458F;
 }
 
 ul.tags a:active, ul.tags a:focus, strong.tag {
@@ -211,6 +211,10 @@ ul.terms li {
 
 aside.currentPage {
   padding-top: 1em;
+}
+
+aside.currentPage .tag {
+  font-size: small;
 }
 
 ul.pagination {
