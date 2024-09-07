@@ -23,9 +23,13 @@ params:
   author: "James Read"
   githubuser: "jamesread"
   description: "James Read's Code, Containers & Cloud blog"
+  title: "James Read's Code, Containers & Cloud blog"
   useFeaturedImage: false
   images:
     - "/socialSharePreview.jpg"
+  social:
+    twitter: "@jamesreadtweets"
+    mastodon: "jamesread"
 
 menu:
   main:
