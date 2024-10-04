@@ -225,3 +225,13 @@ ul.pagination li {
   display: inline-block;
 }
 
+figure img {
+  margin-bottom: 0;
+}
+
+figcaption {
+  background-color: whitesmoke;
+  padding: .5em;
+  border-radius: 0 0 .5em .5em;
+  box-shadow: 0 0 5px #999;
+}
