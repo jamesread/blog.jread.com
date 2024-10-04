@@ -9,7 +9,7 @@ tags:
   - coding
 ---
 
-The bluey-grey color that you see in nearly all of my projects has the HTML color code #dee3e7. It came from the very first "real" web project I worked on when I was about 14 years old, and I knew nothing! That website has had so many versions over the years, but it's first version was built with PHP4, HTML3 and CSS2 - and it was a mess! But I loved it, it taught me so much about web development, and it was my gateway into the world of web programming.
+The bluey-grey color that you see in nearly all of my projects has the HTML color code #dee3e7. It came from the very first "real" web project I worked on when I was about 16 years old, and I knew nothing! That website has had so many versions over the years, but it's first version was built with PHP4.3, XHTML4.01 and CSS2.1 - and it was a mess! But I loved it, it taught me so much about web development, and it was my gateway into the world of web programming.
 
 ![technowax in 2004](technowax-2004.png "technowax in 2004")
 
