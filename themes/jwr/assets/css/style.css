@@ -235,3 +235,15 @@ figcaption {
   border-radius: 0 0 .5em .5em;
   box-shadow: 0 0 5px #999;
 }
+
+img.profile {
+  margin: 0;
+  margin-right: .5em;
+  margin-bottom: .5em;
+  font-size: 3em;
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  display: inline-block;
+  float: left;
+}
