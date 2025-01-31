@@ -29,7 +29,7 @@ So, let me say that this post is an acknowledgement that even though this course
 
 I will use this blog post to link to new articles that I write as a direct result of this course, which I'll list below;
 
-* [Why is AI happening now?]({{< relref "../why-is-ai-happening-now/" >}})
+* [Why is AI happening now?]({{< relref "../why-is-ai-happening-now/index.md" >}})
 
 Some of the topics I hope to write about are;
 
