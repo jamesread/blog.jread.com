@@ -64,7 +64,9 @@ The first step you should take, **that takes just 5 minutes**, is to go to your 
 * <strong style = "color:orange">Orange</strong> = I sort-of know this topic.
 * <strong style = "color:green">Green</strong> = I know this topic inside and out.
 
+<!---
 Use that as a visual way to plan your learning journey. If you'd like to see an example about how I do this, check out my article about [how I planned my approach to EX374]({{< relref "../EX374-Red-Hat-Certified-Specialist-In-Developing-Automation-with-Ansible-Automation-Platform" >}}).
+--->
 
 ### Useful resources
 
