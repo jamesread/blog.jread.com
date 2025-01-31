@@ -43,7 +43,7 @@ nav ul li.last {
 }
 
 a {
-  color: #0060C7;
+  color: #36f;
   font-weight: bold;
   text-decoration: none;
 }
@@ -186,7 +186,7 @@ ul.tags li a, .tag {
   font-family: sans;
   padding: .5em;
   margin-right: .5em;
-  background-color: #0060C7;
+  background-color: #36f;
   color: white;
   text-decoration: none;
   border-radius: .8em;
