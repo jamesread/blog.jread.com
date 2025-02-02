@@ -27,11 +27,13 @@ nav ul {
 
 nav ul li {
   display: inline-block;
+  text-align: center;
+  margin-right: 1em;
 }
 
 nav ul li a {
-  margin-right: 1em;
   text-decoration: none;
+  display: block;
 }
 
 nav ul li a:hover {
