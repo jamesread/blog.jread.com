@@ -24,19 +24,23 @@ Under the headings below, I go into more details.
 
 ## **Heads Up display — “overseer”**
 
-**Specs:** Linux (Fedora), Tiny “NUC” style, 2Ghz CPU, 4Gb RAM**
-Monitors: **2 via dual HDMI on the motherboard
+* **Form factor:** Tiny “NUC” style
+* **OS:** Linux (Fedora)
+* **Specs**: 2Ghz CPU, 4Gb RAM
+* **Monitors:** 2 via dual HDMI on the motherboard
 
 ![](https://cdn-images-1.medium.com/max/2000/1*2JzfT8DDYTS5v3b_yF-yDQ.png)
 
-**Usage: **Linux Heads Up Display (2 monitors), runs Grafana and News. These are generally turned on 24/7. I quickly glance at these when something obviously looks interesting or wrong!
+* **Usage**: Linux Heads Up Display (2 monitors), runs Grafana and News. These are generally turned on 24/7. I quickly glance at these when something obviously looks interesting or wrong!
 
 I don’t have a keyboard or mouse attached to this machine, so if I notice something, I’ll load it up on my main workstation to look at it in more detail. These monitors obviously refresh every 60 seconds or so. Not too distracting.
 
 ## **Main Workstation-”mindstorm”**
 
-**Specs: **Linux (Fedora), “Full Tower” style, 16Gb RAM, i5–2500k**
-Monitors: **4 via NVidia 1660 (4x hdmi/displayport)
+* **Form factor**: Desktop "Full Tower" style
+* **OS:** Linux (Fedora)
+* **Specs**: 16Gb RAM, i5–2500k
+* **Monitors:** 4 via NVidia 1660 (4x hdmi/displayport)
 
 ![](https://cdn-images-1.medium.com/max/2000/1*2fNekCyuYli92W_5YEQVSg.png)
 
