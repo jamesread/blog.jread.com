@@ -10,13 +10,16 @@ body {
 header {
   border-bottom: 1px solid #dee3e7;
   padding: 1em;
+  padding-bottom: 0;
   margin: auto;
 }
 
 nav {
   max-width: 720px;
   padding: .5em;
+  padding-bottom: 0;
   margin: auto;
+  margin-bottom: -0.8em;
 }
 
 nav ul {
@@ -99,15 +102,20 @@ h3 {
   margin-bottom: 0;
 }
 
+h2:first-child {
+	margin-top: 0;
+	margin-bottom: .6em;
+}
+
 h2, h3 {
 	font-family: serif;
 }
 
 h2 a {
-  font-family: sans-serif;
+  font-family: serif;
   text-decoration: none;
-  font-weight: normal;
   color: black;
+  margin-bottom: .5em;
 }
 
 h2 a:hover {
@@ -216,6 +224,8 @@ ul.terms li {
 
 aside.currentPage {
   padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: small;
 }
 
 aside.currentPage .tag {
@@ -251,6 +261,11 @@ img.profile {
   border-radius: 50%;
   display: inline-block;
   float: left;
+}
+
+code {
+	font-size: 1.3em;
+	background-color: #efefef;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -290,5 +305,9 @@ img.profile {
 	
 	ul.tags li a:hover, .tag:hover {
 		color: white;
+	}
+
+	code {
+		background-color: #666;
 	}
 }

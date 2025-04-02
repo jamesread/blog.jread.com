@@ -4,9 +4,6 @@
 
 {{ define "main" }}
 {{ $section := .Site.GetPage "section" .Section }}
-<aside class = "currentPage">
-	You are viewing a single post.
-</aside>
 <article>
 	{{ partial "post-header.html" . }}
 
@@ -34,6 +31,10 @@
 		{{ end }}
 	</div>
 </article>
+
+<aside class = "currentPage">
+	You are viewing a single article. <a href = "/">Return to home</a>.
+</aside>
 
 {{ if .Params.Medium }}
 <aside>
