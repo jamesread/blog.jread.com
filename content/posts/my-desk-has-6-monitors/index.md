@@ -56,13 +56,13 @@ The top monitor is outside of my field of view, and I place videos, webinars, co
 
 ![](https://cdn-images-1.medium.com/max/2000/1*NFgu04JuZOH6NUm3zQFdOQ.png)
 
-**Usage: **Windows games (Steam), writing apps for iOS on the Mac. I go through phases of using these machines for a few days at a time before I go back to other projects!
+**Usage:** Windows games (Steam), writing apps for iOS on the Mac. I go through phases of using these machines for a few days at a time before I go back to other projects!
 
 ## The history
 
 If you’d like to know how I got here, here is the history.
 
-### **Going dual monitor**
+### Going dual monitor
 
 My first machine was a 266mhz Pentium II, with a 17 inch (or probably 15 inch) CRT monitor. I resisted the switch to the early “flat screen” monitors for such a long time — the early TFT monitors with 16ms respond times (or longer) were just awful to look at. I think that my first flat screen was 17". The Radeon Pro graphics card that I bought during an upgrade had a VGA _and_ ad DVI connection. I instantly wanted two monitors!
 
