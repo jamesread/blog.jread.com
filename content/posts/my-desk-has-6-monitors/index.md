@@ -50,8 +50,9 @@ The top monitor is outside of my field of view, and I place videos, webinars, co
 
 ## Single monitor — Windows (gaming), Mac (iOS Development)
 
-**Specs: **Mac is a Mac Mini. 8Gb RAM I think, running the latest MacOS (probably!). The Windows Machine also has a NVidia 1660s, 16Gb RAM, and a fancy i5. **
-Monitors: **Both single-monitor workloads
+* **Form factor**: Mini ITX "shuttle" style
+* **Specs**: Mac is a Mac Mini. 8Gb RAM I think, running the latest MacOS (probably!). The Windows Machine also has a NVidia 1660s, 16Gb RAM, and a fancy i5. **
+* **Monitors**: Both single-monitor workloads
 
 ![](https://cdn-images-1.medium.com/max/2000/1*NFgu04JuZOH6NUm3zQFdOQ.png)
 
