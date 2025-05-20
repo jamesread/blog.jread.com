@@ -1,5 +1,5 @@
 ---
-title: "Markdown vs Asciidoc - which is better?"
+title: "Markdown vs AsciiDoc - which is better?"
 date: 2025-05-20T13:27:55+01:00
 draft: false
 tags: 
