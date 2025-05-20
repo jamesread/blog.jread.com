@@ -8,7 +8,9 @@ featured_image: ""
 description: ""
 ---
 
-Over the years I've used both markdown and asciidoc for writing technical documentation. Many more people are familiar with Markdown because it's used on GitHub. However, I think I probably found Asciidoc first because it is the standard used by Red Hat technical documentation. Both have their pros and cons, but I've come to realize that one is not necessarily better than the other. It really depends on the use case.
+Over the years I've used both markdown and asciidoc for writing technical documentation. Many more people are familiar with Markdown because it's used on GitHub. However, I think I probably found AsciiDoc first because it is the standard used by Red Hat technical documentation. Both have their pros and cons, but I've come to realize that one is not necessarily better than the other. It really depends on the use case.
+
+So, which one is better? This is often a silly way to look at technologies - one is not often better than the other for all use cases. Windows is not better than Linux, and Linux or not better than Windows. They are just different. For running games, I use Windows, for everthine else - Linux works better for me. So what are the advantages and disadvantages of each - and when should you use one over the other?
 
 ## Markdown
 
@@ -23,7 +25,7 @@ Markdown's allure probably comes from it's simplicity - it is very easy to under
   * No propper cross references (just links to other ofiles)
   * Importing files is not supported in many renderers (essential for big documentation)
 
-## Asciidoc
+## AsciiDoc
 
 * **Advantage**:
   * Lots of features useful for big documentation - admonitions, cross references, imports
@@ -47,8 +49,6 @@ Markdown's allure probably comes from it's simplicity - it is very easy to under
 
 This is how I decide;
 
-* **Markdown**: 
-  * For single-page documentation, or where reading the plain text is important (eg, SECURITY.md, CONTRIBUTING.md from a cloned repo).
-* **Asciidoc**: 
-  * For multi-page documentation.
+* *For single page document, or when reading the plain text is important*: **Markdown**.
+* *For multi-page documentation, and when having a dedicated reader/location is acceptable*: **AsciiDoc**.
 
