@@ -4,6 +4,7 @@ date: 2025-05-20T10:52:02+01:00
 draft: false
 tags:
   - code
+  - "GoConnSPA"
   - projects
   - golang
 featured_image: ""
