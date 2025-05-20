@@ -13,6 +13,14 @@ description: ""
 
 I'm eager to write about a technology stack that I've stumbled into, which I believe is the nicest one I've ever worked with. The stack is called **GoConnSPA**, and it consists of the following *technologies* and *tools*;
 
+
+## Overview
+
+```mermaid
+flowchart TD
+    A[Backend Service] <-->|websocket| B[Single Page App]
+```
+
 ## Technologies
 
 * **Go**: The Go programming language, which is known for its simplicity and efficiency.
