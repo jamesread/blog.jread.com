@@ -1,7 +1,7 @@
 ---
 title: "How Do I Name My Projects?"
 date: 2025-10-14T12:45:28Z
-draft: true
+draft: false
 tags: []
 featured_image: ""
 description: ""
