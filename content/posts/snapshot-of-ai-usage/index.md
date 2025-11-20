@@ -33,6 +33,8 @@ It will be interesting to see how this changes over time!
 
 I have to say that I was very surprised to like this, being such an avid Vim user. 
 
+![Cursor AI Screenshot](cursor.png)
+
 - **Costs:** $20/month - "pro" plan.
 - **Frequency:** Hourly, constantly have a tab open.
 - **Model selection:** automatic 90% of the time.
@@ -51,7 +53,6 @@ I was introduced to Coderabbit AI via Postiz, and I have to say the quality of t
   - Automated code reviews on GitHub PRs
   - Code quality suggestions
 
-![Cursor AI Screenshot](cursor.png)
 
 ### Google Gemini - pro, paid for with work
 
