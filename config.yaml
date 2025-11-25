@@ -29,6 +29,7 @@ params:
     - "/socialSharePreview.jpg"
   social:
     twitter: "@jamesreadtweets"
+    bluesky: "@jamesread.bsky.social"
     mastodon: "jamesread"
 
 menu:

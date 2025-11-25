@@ -22,7 +22,7 @@
 
 		{{ $bundleRaw := resources.Get "css/style.css" | resources.ExecuteAsTemplate "css/main.tmp.css" . }}
 
-		{{ if .Site.IsServer }}
+		{{ if hugo.IsServer }}
 		{{ $cssOpts := (dict "targetPath" "css/main.css" "enableSourceMap" true ) }}
 		{{ $bundle := $bundleRaw | toCSS $cssOpts }}
 		<link rel="stylesheet" href="{{ $bundle.RelPermalink }}" media="screen">
@@ -97,6 +97,14 @@
 				</ul></p>
 			</article>
 		</main>
+
+		{{ if .Store.Get "hasMermaid" }}
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+  </script>
+{{ end }}
+
 		{{ block "footer" . }}{{ partialCached "site-footer.html" . }}{{ end }}
 	</body>
 </html>
