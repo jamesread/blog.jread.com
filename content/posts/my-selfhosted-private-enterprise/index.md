@@ -1,6 +1,6 @@
 ---
 title: "teratan.lan - My Self-Hosted private Enterprise"
-date: 2025-11-15
+date: 2025-11-26
 tags:
   - architecture
   - self-hosting
