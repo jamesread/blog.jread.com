@@ -36,7 +36,6 @@ It's *literally my day job* to advise some of the most interesting companies in 
 
 <style type = "text/css">
 .enterprise {
-    font-size: small;
     font-weight: 600;
 }
 
@@ -45,7 +44,7 @@ It's *literally my day job* to advise some of the most interesting companies in 
     display: grid;
     gap: 1em;
     padding: .5em;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     border-radius: .5em;
     text-align: center;
 }
@@ -75,19 +74,16 @@ It's *literally my day job* to advise some of the most interesting companies in 
 .description {
     font-weight: normal;
     grid-column: 1 / -1;
-    font-size: smaller;
 }
 
 .sizing {
     font-weight: normal;
-    font-size: smaller;
     color: green;
 }
 
 .service-list {
     color: #555555;
     font-weight: normal;
-    font-size: smaller;
     margin-top: .5em;
     line-height: 1.4em;
 }
@@ -95,34 +91,47 @@ It's *literally my day job* to advise some of the most interesting companies in 
 .wide {
     grid-column: 1 / -1;
 }
+
+h3 {
+    font-family: sans-serif;
+    margin-top: 0;
+    margin-bottom: .2em;
+}
 </style>
 <div class = "enterprise boundary">
-    <div class = "system">Memories
+    <div class = "system">
+        <h3>Memories</h3>
         <div class = "description">Capture life, organise it, keep it safe.</div>
         <div class = "service-list">Camera Photos, Videos, CCTV.</div>
     </div>
-    <div class = "system">Entertainment
+    <div class = "system">
+        <h3>Entertainment</h3>
         <div class = "description">Ingest & serve media.</div>
         <div class = "service-list">Music, Films, Lectures, Indexing, Search, Suggestions, Release Notifications.</div>
     </div>
-    <div class = "system">Lab
+    <div class = "system">
+        <h3>Lab</h3>
         <div class = "description">Build, Test, Break, Learn, Grow.</div>
         <div class = "service-list">Source Control, Testing, Experimentation, 3D Printing, Reverse Engineering.</div>
     </div>
-    <div class = "system">Insights
+    <div class = "system">
+        <h3>Insights</h3>
         <div class = "description">Ingest public data &amp; generate knowledge.</div>
         <div class = "service-list">Consume feeds of News, Finance, Social Media -> Data Warehouse & Analysis.</div>
     </div>
-    <div class = "system">Knowledge
+    <div class = "system">
+        <h3>Knowledge</h3>
         <div class = "description">Reliable, indexed, external brain.</div>
         <div class = "service-list">Note Taking, Document Storage, Wikis, Reference Material.</div>
     </div>
-    <div class = "system">Productivity
+    <div class = "system">
+        <h3>Productivity</h3>
         <div class = "description">Everything that keeps my day flowing.</div>
         <div class = "service-list">Home Assistant, Personal Assistants, Calendars, To-Do, Planning Lists.</div>
     </div>
     <div class = "wide stack">
-        <div class = "shared">Infrastructure
+        <div class = "shared">
+            <h3>Infrastructure</h3>
             <div class = "description">Compute, Network, Metrics, Logs, Monitoring, Backup, Security, Storage.</div>
             <div class = "service-list">Kubernetes, Podman, VMs, git-annex.</div>
         </div>
