@@ -51,6 +51,7 @@ It's *literally my day job* to advise some of the most interesting companies in 
 
 .system {
     background-color: #dee3e7;
+    color: black;
     padding: .5em;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
     border: 1px solid #abb4b9;
@@ -65,6 +66,7 @@ It's *literally my day job* to advise some of the most interesting companies in 
 
 .shared {
     background-color: beige;
+    color: black;
     border: 0;
     border: 1px solid #abb4b9;
     border-radius: .5em;
