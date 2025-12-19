@@ -1,10 +1,12 @@
 {{ define "main" }}
 
 <section>
-	{{ range  .Pages }}
+	{{ range (.Paginate .Pages).Pages }}
 	{{ partial "post-summary.html" . }}
 	{{ end }}
 </section>
+
+{{- partial "pagination.html" . -}}
 
 <aside class = "currentPage">You are viewing a tag: <strong>{{ .Title }}</strong>. You can also view <a href = "/tags">All Tags</a>.</aside>
 

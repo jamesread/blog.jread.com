@@ -60,6 +60,9 @@ menu:
       params:
         class: last
 
+pagination:
+  pageSize: 10
+
 markup:
   goldmark:
     renderer:

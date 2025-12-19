@@ -3,7 +3,7 @@ title: "Odyssey Projects"
 date: 2020-12-08
 draft: false
 tags:
-  - coding
+  - code
   - projects
 featured_image: cover.jpg 
 featured_image_credit: Photo by Filip Mroz on Unsplash

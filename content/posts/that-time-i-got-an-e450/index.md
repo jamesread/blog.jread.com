@@ -4,7 +4,6 @@ date: 2025-10-14T13:01:37+01:00
 draft: false
 tags:
     - sun
-    - e450
     - workstation
     - hardware
     - vintage

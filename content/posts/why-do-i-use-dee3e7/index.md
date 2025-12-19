@@ -6,7 +6,7 @@ tags: []
 featured_image: ""
 description: ""
 tags:
-  - coding
+  - code
 featured_image_url: "https://pixabay.com/photos/brushes-painter-work-shop-bowl-3129361/"
 featured_image_credit: "ClickerHappy"
 ---

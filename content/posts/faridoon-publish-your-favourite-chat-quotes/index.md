@@ -3,7 +3,7 @@ title: "Faridoon: Save & Publish Your Favourite Chat Quotes"
 date: 2025-02-26T23:57:16Z
 draft: false
 tags:
- - coding
+ - code
  - projects
  - open-source
 featured_image: ""

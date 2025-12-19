@@ -15,12 +15,13 @@
         {{ end }}
 
       <section>
-        {{ range ($section) }}
+        {{ range (.Paginate $section).Pages }}
           <div>
 			{{ partial "post-summary.html" . }}
           </div>
         {{ end }}
       </section>
+      {{- partial "pagination.html" . -}}
       </div>
   {{ end }}
 {{ end }}
