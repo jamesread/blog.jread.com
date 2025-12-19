@@ -3,6 +3,8 @@ title: "Software Doesn't Fail Randomly"
 date: 2024-09-07T20:46:24+01:00
 tags:
   - code
+featured_image_credit: "Ben_Berckx"
+featured_image_url: "https://pixabay.com/photos/house-explosion-ruin-gas-explosion-971898/"
 ---
 
 In my very first job interview out of University, I was asked a question that I have never forgotten. The interviewer asked me "What skills do you think you have, that other people don't?". Context is important, I was 21, I'd never had a professional job in IT before, and I was applying for a job as a Systems Engineer. What came to mind quite quickly, was that I've been programming since I was about 11 or 12 years old, and it's given me an appreciation for why software fails.

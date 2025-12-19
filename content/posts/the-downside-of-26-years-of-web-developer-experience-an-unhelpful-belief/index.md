@@ -5,6 +5,8 @@ tags:
   - code
   - vue
   - today-i-switched
+featured_image_credit: "truk"
+featured_image_url: "https://pixabay.com/photos/sylvester-fireworks-new-years-day-1125786/"
 ---
 
 I'm 37 today (2025), but I started coding for the web 26 years ago at around 11 (~1999). That’s “26 years of web developer experience,” but I’ve realised it also bred an unhelpful belief about how to write frontend code.

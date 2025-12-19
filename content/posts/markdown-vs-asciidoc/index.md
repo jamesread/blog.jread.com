@@ -4,7 +4,8 @@ date: 2025-05-20T13:27:55+01:00
 draft: false
 tags: 
   - "asciidoc"
-featured_image: ""
+featured_image_url: "https://pixabay.com/photos/checkerboard-edelfalter-butterfly-1472687/"
+featured_image_credit: "kie-ker"
 description: ""
 ---
 

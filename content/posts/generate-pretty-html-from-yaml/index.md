@@ -3,6 +3,8 @@ title: Generate pretty HTML from YAML with Gomplate
 date: 2024-07-02
 tags:
   - code
+featured_image_credit: "McArt"
+featured_image_url: "https://pixabay.com/photos/snow-mountain-volcano-heaven-3294295/"
 ---
 
 Sometimes you need to write a HTML webpage that is based on some sort of data file, like YAML files. Rather than having a server-side script generate the HTML, you can generate the HTML page statically, making it easier to host and cache.

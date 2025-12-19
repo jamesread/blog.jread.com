@@ -6,6 +6,8 @@ tags:
   - code
   - golang
   - my-tools
+featured_image_url: "https://pixabay.com/photos/balloon-balloon-envelope-2021525/"
+featured_image_credit: "Editor"
 ---
 
 It can be a real effort to bring yourself to write articles to maintain a healthy blog, and sometimes the simple articles are best. Therefore, I just want to take a quick few moments to talk about a tool that I just cannot live without now-a-days, when writing Go code, I am always live-reloading with Air in the background.

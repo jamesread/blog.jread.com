@@ -7,6 +7,8 @@ featured_image: ""
 description: ""
 tags:
   - coding
+featured_image_url: "https://pixabay.com/photos/brushes-painter-work-shop-bowl-3129361/"
+featured_image_credit: "ClickerHappy"
 ---
 
 The bluey-grey color that you see in nearly all of my projects has the HTML color code #dee3e7. It came from the very first "real" web project I worked on when I was about 16 years old, and I knew nothing! That website has had so many versions over the years, but it's first version was built with PHP4.3, XHTML 1.0/HTML4.01 and CSS2.1 - and it was a mess! But I loved it, it taught me so much about web development, and it was my gateway into the world of web programming.

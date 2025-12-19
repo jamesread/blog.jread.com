@@ -4,7 +4,8 @@ date: 2025-05-28T22:21:04+01:00
 draft: false
 tags:
   - code
-featured_image: ""
+featured_image_credit: "Bru-nO"
+featured_image_url: "https://pixabay.com/photos/lamp-lightbulb-bulbs-light-3726722/"
 description: ""
 ---
 

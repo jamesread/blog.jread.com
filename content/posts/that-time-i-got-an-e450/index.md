@@ -8,7 +8,8 @@ tags:
     - workstation
     - hardware
     - vintage
-featured_image: ""
+featured_image_credit: "Myriams-Fotos"
+featured_image_url: "https://pixabay.com/photos/sun-sunset-setting-sun-3275314/"
 description: ""
 ---
 I got a SUN E450 workstation for free back in the mid 2000s. I got it because it looked super cool, but I wish I had more skills back then to be able to use it!

@@ -7,6 +7,8 @@ tags:
   - my-tools
   - vim
   - git
+featured_image_credit: "webandi"
+featured_image_url: "https://pixabay.com/photos/stone-tablet-latin-board-writing-2185080/"
 ---
 
 I am so sick and tried of changing task management systems, I will just be using plain .txt files from now on.

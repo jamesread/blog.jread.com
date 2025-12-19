@@ -8,6 +8,8 @@ tags:
   - antora
   - asciidoc
   - olivetin
+featured_image_url: "https://pixabay.com/photos/papers-projects-documents-4862061/"
+featured_image_credit: "JerzyGorecki"
 ---
 
 This evening finally marks the completion of the migration of https://docs.olivetin.app to a new build system, called Antora.

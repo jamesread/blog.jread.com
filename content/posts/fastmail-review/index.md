@@ -6,7 +6,8 @@ tags:
   - email
   - subscriptions
   - privacy
-featured_image: ""
+featured_image_credit: "aitoff"
+featured_image_url: "https://pixabay.com/photos/post-box-post-mail-box-wall-dry-2691454/"
 description: ""
 ---
 

@@ -9,7 +9,10 @@ tags:
   - AWS
   - GPU
   - Neocloud
-featured_image: ""
+featured_image: "cover.jpg"
+featured_image_caption: Some clouds in the sky
+featured_image_credit: Myriams-Fotos from Pixabay
+featured_image_credit_url: https://pixabay.com/users/myriams-fotos-1627417/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1661088
 description: ""
 ---
 

@@ -5,7 +5,8 @@ draft: false
 tags:
     - code
     - architecture
-featured_image: ""
+featured_image_url: "https://pixabay.com/photos/technical-drawing-calipers-workshop-3324368/"
+featured_image_credit: "Anyusha"
 description: ""
 ---
 

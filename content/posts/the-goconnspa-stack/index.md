@@ -7,7 +7,8 @@ tags:
   - "GoConnSPA"
   - projects
   - golang
-featured_image: ""
+featured_image_credit: "Cao135"
+featured_image_url: "https://pixabay.com/photos/stones-waterfalls-balance-5677828/"
 description: ""
 ---
 

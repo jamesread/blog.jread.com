@@ -1,10 +1,13 @@
 {{ define "header" }}
+{{ .Store.Set "isSummary" false }}
 {{ partial "post-header.html" . }}
 {{ end }}
 
 {{ define "main" }}
+
 {{ $section := .Site.GetPage "section" .Section }}
-<article>
+<article class = "default-single">
+{{ .Store.Set "isSummary" false }}
 	{{ partial "post-header.html" . }}
 
 	{{ if and .Params.UseFeaturedImages .Params.featured_image_credit }}

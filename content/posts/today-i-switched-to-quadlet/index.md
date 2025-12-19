@@ -6,6 +6,8 @@ tags:
   - containers
   - linux
   - homeops
+featured_image_credit: "bernswaelz"
+featured_image_url: "https://pixabay.com/photos/container-bridge-container-1367604/"
 ---
 
 This post is written simply for myself to mark the date when I fully decided to ditch Ansible's `containers.podman.podman_containers`, and Podman's nasty port of `docker-compose`, in favour of Quadlet. Hopefully this page can serve as a useful reference for others considering the same move.

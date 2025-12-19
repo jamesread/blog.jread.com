@@ -1,4 +1,5 @@
-<article>
+<article class = "post-summary">
+{{ .Store.Set "isSummary" true }}
 	{{ partial "post-header.html" . }}
 
 	{{- partial "tags.html" . -}}

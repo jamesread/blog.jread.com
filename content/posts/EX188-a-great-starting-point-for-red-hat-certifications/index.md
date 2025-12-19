@@ -5,6 +5,8 @@ tags:
   - certifications
   - containers
   - redhat
+featured_image_credit: "zoellnerwillich"
+featured_image_url: "https://pixabay.com/photos/run-bobby-car-bobbycar-race-5033784/"
 ---
 I've been working at Red Hat for for 13 years, so people will often come to me ask for guidance of where to get started with their Red Hat certification journey. So many people have heard of the RHCE - the Red Hat Certified Engineer exam, which remains one of the most respected IT certifications in the industry, let alone just Linux certifications. 
 

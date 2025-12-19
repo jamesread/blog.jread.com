@@ -3,6 +3,8 @@ title: "Life Planning (with AI!)"
 date: 2025-10-21
 tags: 
   - ai
+featured_image_credit: "kolibri5"
+featured_image_url: "https://pixabay.com/photos/scotland-st-andrews-cathedral-walls-1607619/"
 ---
 
 ## The problem statement

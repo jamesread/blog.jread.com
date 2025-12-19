@@ -6,9 +6,9 @@ tags:
   - workstation
 ---
 
-I want to explain how I use this setup, and how I got here. Perhaps I will encourage you, to experiment with your desk and workflow.
+Taken in approx Mar 2021
 
-![6 monitors.](https://cdn-images-1.medium.com/max/9216/1*G5zh2d-GCF1QjAVoPsDyiw.jpeg "Taken in approx Mar 2021")
+I want to explain how I use this setup, and how I got here. Perhaps I will encourage you, to experiment with your desk and workflow.
 
 Pictured above, is my desk. It does indeed have 6 monitors. It also has 4 computers with 3 operating systems (2x Linux, 1x Windows — for gaming, 1x Mac — for iOS development).
 

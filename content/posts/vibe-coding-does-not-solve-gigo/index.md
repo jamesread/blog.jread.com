@@ -4,7 +4,9 @@ date: 2025-11-05T09:10:03Z
 draft: false
 tags:
   - AI
-featured_image: ""
+  - Code
+featured_image_url: "https://pixabay.com/photos/engineer-code-coding-software-4690505/"
+featured_image_credit: "This_is_Engineering"
 description: ""
 ---
 

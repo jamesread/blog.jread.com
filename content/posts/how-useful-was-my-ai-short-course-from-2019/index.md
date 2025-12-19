@@ -4,6 +4,8 @@ date: 2024-03-17
 draft: false
 tags:
   - AI
+featured_image_credit: "SJPrice"
+featured_image_url: "https://pixabay.com/photos/bodleian-library-oxford-university-4974735/"
 ---
 
 In 2019 I could see that AI was a technology gaining increasing interest and relevance, and I was keen to get ahead of the hype and start learning more. At the time I was feeling like my day to day routine was getting a bit boring, and too familiar, and I wanted to make sure I had a solid grasp of what I thought would become a fundamental building block of technology for the future, and I decided to take a course on the topic of AI. 

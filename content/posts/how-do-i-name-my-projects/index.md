@@ -3,7 +3,8 @@ title: "How Do I Name My Projects?"
 date: 2025-10-14T12:45:28Z
 draft: false
 tags: []
-featured_image: ""
+featured_image_credit: "anncapictures"
+featured_image_url: "https://pixabay.com/photos/planning-housebuilding-pre-project-3536759/"
 description: ""
 ---
 

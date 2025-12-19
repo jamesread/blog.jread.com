@@ -3,9 +3,9 @@ title: Linux tools that I learned 10 years ago, which I still use every day
 date: 2021-05-12
 tags:
   - linux
+featured_image_url: "https://www.pexels.com/photo/background-blank-business-craft-301703/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels"
+medium: https://medium.com/james-reads-public-cloud-technology-blog/linux-tools-that-i-learned-10-years-ago-which-i-still-use-every-day-9289f952f169
 ---
-
-Photo by Pixabay from Pexels
 
 There are a lot of cool Linux commands and tools you COULD learn, but what’s the point in investing a bunch of time if you just use them once a week, or once a month? A good example I like to give is Vim — it takes a long time to learn and master, but I use it over 10 times a day so it’s worth it.
 

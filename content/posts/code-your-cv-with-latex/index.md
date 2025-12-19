@@ -2,6 +2,8 @@
 title: "Code your CV/Resume with LaTeX"
 date: 2025-11-28T15:30:00+01:00
 draft: false
+featured_image_url: https://pixabay.com/photos/cv-resume-job-employment-business-3726428/
+featured_image_credit: Oli Lynch from Pixabay
 tags:
   - code
   - career

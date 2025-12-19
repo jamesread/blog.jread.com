@@ -5,7 +5,8 @@ draft: false
 tags:
   - AI
   - Self-Hosting
-featured_image: ""
+featured_image_url: "https://pixabay.com/photos/cyber-brain-computer-brain-7633488/"
+featured_image_credit: "DeltaWorks"
 description: ""
 ---
 

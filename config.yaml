@@ -24,7 +24,7 @@ params:
   githubuser: "jamesread"
   description: "James Read's Code, Containers & Cloud blog"
   title: "James Read's Code, Containers & Cloud blog"
-  useFeaturedImage: false
+  useFeaturedImage: true
   images:
     - "/socialSharePreview.jpg"
   social:

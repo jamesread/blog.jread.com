@@ -7,7 +7,8 @@ tags:
   - "GoConnSPA"
   - projects
   - golang 
-featured_image: ""
+featured_image_url: "https://pixabay.com/photos/dandelion-flying-seeds-seeds-7191739/"
+featured_image_credit: "Nennieinszweidrei"
 description: ""
 ---
 

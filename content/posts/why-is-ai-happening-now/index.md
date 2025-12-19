@@ -4,6 +4,8 @@ date: 2024-03-18
 draft: false
 tags:
   - AI
+featured_image_url: "https://pixabay.com/photos/clock-alarm-clock-coffee-cup-8592484/"
+featured_image_credit: "RuslanSikunov"
 ---
 
 This is a blog post written as a summary of notes, following my learnings from an AI course I completed back in 2019 that I feel is still incredibly relevant in 2024]({{ rel  '../how-useful-way-my-ai-short-course-from-2019/' }}).

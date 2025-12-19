@@ -6,6 +6,8 @@ tags:
   - prometheus
   - homeops
   - monitoring
+featured_image_url: "https://pixabay.com/photos/cardiac-pulse-time-series-statistics-4240338/"
+featured_image_credit: "romnyyepez"
 ---
 
 I aggressively use Prometheus in my day-to-day life, not just for regular technical and application metrics, but for everything I can get an exporter for.

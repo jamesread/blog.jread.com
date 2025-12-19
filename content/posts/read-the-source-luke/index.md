@@ -7,7 +7,7 @@ tags:
 
 Reading the source code is a pathway to many abilities that some consider… unnatural.
 
-![Luke’s original strategy was to attack the death star via SQL injection, but in the end he went for an X-Wing based buffer overflow.](https://cdn-images-1.medium.com/max/2402/1*lOi64faXWhFyV-Kw6k8rNw.png)*Luke’s original strategy was to attack the death star via SQL injection, but in the end he went for an X-Wing based buffer overflow.*
+*Luke’s original strategy was to attack the death star via SQL injection, but in the end he went for an X-Wing based buffer overflow.*
 
 **I want to encourage you to actually read through the open source code for the software that you’re using.** Doing so has many potential benefits, and skills like this can give you a real edge and advantage in your team. In the article I’m going to outline my top three benefits for doing so.
 

@@ -4,6 +4,8 @@ date: 2024-05-10
 draft: false
 tags:
   - AI
+featured_image_credit: "thaifreestyle"
+featured_image_url: "https://pixabay.com/photos/ai-drawing-ai-art-wombo-ai-design-7537464/"
 ---
 
 This week was totally normal and routine for me, I'm sitting here on a Friday thinking that 

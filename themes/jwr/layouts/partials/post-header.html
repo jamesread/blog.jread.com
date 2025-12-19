@@ -16,7 +16,21 @@
 
 {{ $featured_image := partial "func/GetFeaturedImage.html" . }}
 {{ if eq .Site.Params.usefeaturedimage true }}
-<img src="{{ $featured_image }}" class = "featured" title = "{{ .Params.featured_image_caption | default "Sorry, this image does not have a title." }}" />
+<div class = "cover-image">
+	<a href = "{{.RelPermalink}}">
+		<img src="{{ $featured_image }}" class = "featured" title = "{{ .Params.featured_image_caption | default "Sorry, this image does not have a title." }}" />
+	</a>
+
+	{{ if (.Store.Get "isSummary") }}
+	{{ else }}
+		{{ if .Params.featured_image_credit }}
+		<aside class = "featuredImageCredit">
+			Cover image by <a href = "{{ .Params.featured_image_url }}">{{ .Params.featured_image_credit }}</a>.
+		</aside>
+		{{ end }}
+	{{ end }}
+	
+</div>
 {{ end }}
 
 

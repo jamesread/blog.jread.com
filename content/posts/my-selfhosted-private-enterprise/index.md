@@ -4,7 +4,8 @@ date: 2025-11-26
 tags:
   - architecture
   - self-hosting
-featured_image: ""
+featured_image_credit: Sebastian Ganso
+featured_image_url: "https://pixabay.com/photos/ice-block-winter-frozen-lake-7665945/"
 description: ""
 ---
 

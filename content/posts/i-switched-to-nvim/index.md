@@ -6,7 +6,8 @@ tags:
   - today-i-switched
   - my-tools
   - vim
-featured_image: ""
+featured_image_credit: "iniesta44"
+featured_image_url: "https://pixabay.com/photos/typewriter-writing-text-writer-old-5260661/"
 description: ""
 ---
 

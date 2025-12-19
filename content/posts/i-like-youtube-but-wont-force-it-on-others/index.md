@@ -5,7 +5,8 @@ draft: false
 tags:
   - today-i-switched
   - tracking
-featured_image: ""
+featured_image_credit: "KosepMonter"
+featured_image_url: "https://pixabay.com/photos/camera-video-tv-video-making-1598620/"
 description: ""
 ---
 
