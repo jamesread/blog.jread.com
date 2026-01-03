@@ -14,6 +14,6 @@ This is just a super simple post to encourage you to check out Ventoy, a fantast
 
 ![Screenshot](screenshot.png)
 
-* GitHub: [https://github.com/ventoy/Ventoy](GitHub)
+* [GitHub](https://github.com/ventoy/Ventoy)
 
 It's saved me hours and hours of frustration having multiple USB keys, reburning them all the time. 
