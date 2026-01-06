@@ -164,8 +164,9 @@ aside.featuredImageCredit {
 }
 
 pre {
-  background-color: beige;
-  border-radius: 1em;
+  background-color: #272822;
+  color: #f8f8f2;
+  border-radius: .5em;
   font-size: 1.2em;
   box-shadow: 0 0 5px #999;
   padding: .5em;
@@ -286,7 +287,8 @@ img.profile {
 
 code {
 	font-size: 1.0em;
-	background-color: #efefef;
+	background-color: #272822;
+	color: #f8f8f2;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -329,10 +331,16 @@ code {
 	}
 
 	code {
-		background-color: #666;
+		background-color: #272822;
+		color: #f8f8f2;
 	}
 
 	ul.pagination li span {
 		color: #999;
+	}
+
+
+	pre {
+	  box-shadow: 0 0 5px #222;
 	}
 }
