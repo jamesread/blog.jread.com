@@ -2,7 +2,10 @@
 title: "Nginx's map directive allows for cleaner config"
 date: 2025-11-20T11:02:08Z
 draft: false
-tags: []
+tags:
+  - code
+  - nginx
+  - haproxy
 featured_image_credit: "heladodementa"
 featured_image_url: "https://pixabay.com/photos/technology-servers-server-1587673/"
 description: ""
