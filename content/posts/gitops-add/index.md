@@ -7,6 +7,7 @@ tags:
   - github
   - git
   - gitops
+  - code
 ---
 
 This article explains how I solved a couple of challenges of getting my initial environment and configs into Git — the first steps to GitOps.

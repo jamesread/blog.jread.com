@@ -6,6 +6,7 @@ tags:
   - prometheus
   - homeops
   - monitoring
+  - cloud
 featured_image_url: "https://pixabay.com/photos/cardiac-pulse-time-series-statistics-4240338/"
 featured_image_credit: "romnyyepez"
 ---

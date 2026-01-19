@@ -4,6 +4,7 @@ date: 2026-01-03T11:38:13Z
 draft: false
 tags:
   - my-tools
+  - code
 featured_image: ""
 description: ""
 ---

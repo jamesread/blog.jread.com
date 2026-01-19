@@ -3,6 +3,7 @@ title: Linux tools that I learned 10 years ago, which I still use every day
 date: 2021-05-12
 tags:
   - linux
+  - code
 featured_image_url: "https://www.pexels.com/photo/background-blank-business-craft-301703/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels"
 medium: https://medium.com/james-reads-public-cloud-technology-blog/linux-tools-that-i-learned-10-years-ago-which-i-still-use-every-day-9289f952f169
 ---

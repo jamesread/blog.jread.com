@@ -3,6 +3,7 @@ title: Recompiling a Linux terminal — a story of time well invested
 date: 2021-02-08
 tags:
   - my-tools
+  - code
 ---
 
 My desktop after the story; i3, st, and some other stuff.

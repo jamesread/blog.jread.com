@@ -9,6 +9,7 @@ featured_image_url: https://www.pexels.com/@kevin-ku-92347?utm_content=attributi
 tags:
   - linux
   - my-tools
+  - code
 ---
 
 # Speed up your command line navigation

@@ -4,6 +4,7 @@ date: 2018-08-30
 tags:
   - linux
   - ansible
+  - code
 ---
 
 We’ve all been there, you just want to hack up a quick Ansible playbook to do a quick task, and then you find yourself fighting with syntax, chopping and changing things around, wondering why this simple Ansible playbook isn’t working. Let me give you a few hints to make your life easier.
