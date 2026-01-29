@@ -2,11 +2,10 @@
 title: "Why Do I Use #dee3e7?"
 date: 2024-10-04T11:04:59+01:00
 draft: false
-tags: []
-featured_image: ""
-description: ""
 tags:
   - code
+featured_image: ""
+description: ""
 featured_image_url: "https://pixabay.com/photos/brushes-painter-work-shop-bowl-3129361/"
 featured_image_credit: "ClickerHappy"
 ---

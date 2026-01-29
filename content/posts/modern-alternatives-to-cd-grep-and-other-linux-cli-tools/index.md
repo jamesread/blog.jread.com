@@ -4,6 +4,7 @@ date: 2024-04-01
 draft: true
 tags:
   - linux
+  - code
 ---
 
 ## cd -> z
@@ -14,4 +15,3 @@ tags:
 ## ssh -> mosh
 
 ## mc -> vifm/ranger
-
