@@ -294,6 +294,7 @@ code {
 table {
   border-collapse: collapse;
   margin: 2em auto;
+  box-shadow: 0 0 5px #999;
 }
 
 table, th, td {
@@ -314,6 +315,10 @@ th, td {
 	body {
 		background-color: #333;
 		color: #fff;
+	}
+
+	table {
+		box-shadow: 0 0 5px #222;
 	}
 
 	table, th, td {

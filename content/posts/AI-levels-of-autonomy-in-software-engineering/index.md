@@ -30,31 +30,31 @@ Production systems, customer-facing applications, heavily used apps, and regulat
 
 ## A sliding scale of autonomy
 
-A simple sliding scale captures the levels:
+A simple sliding scale captures of AI Autonomy in software engineering:
 
 ```ini
 Human Control <--------------------------> AI Control
                L0   L1   L2   L3   L4   L5
 ```
 
-Here's the quick reference of the model;
+Let's map that scale to a Human's role, to provide a quick and easy reference model;
 
 | Level | Description | Human Role | AI Role |
 |------|------------|-----------|--------|
 | 0 | No AI | Do everything | None |
 | 1 | Assistant | Primary driver | Suggest |
-| 2 | Pair programmer | Decide | Generate |
-| 3 | Semi-autonomous | Orchestrate | Implement |
-| 4 | Autonomous executor | Specify intent | Deliver |
-| 5 | Fully autonomous | Supervise | Own SDLC |
+| 2 | Pair Programmer | Decide | Generate |
+| 3 | Semi-Autonomous engineer | Orchestrate | Implement |
+| 4 | Fully Autonomous engineer | Specify intent | Deliver |
+| 5 | Deveopment Team | Supervise | Own SDLC |
 
 Below you can find the additional detail between the levels, and the tools I use at each level.
 
-## Level 0 - No AI Assistance
+## Level 0 - No AI
 
 No AI in the loop. All coding, testing, documentation, and review are done by humans. Traditional software engineering.
 
-## Level 1 - AI as a Productivity Boost
+## Level 1 - AI as an Assistant
 
 **Human drives, AI nudges.** Autocomplete, docstrings, snippets. The human remains in full control; AI only accelerates typing and boilerplate.
 
@@ -70,15 +70,15 @@ Tools I use: [CodeRabbit](https://www.coderabbit.ai/) for code review; [Cursor](
 
 **AI implements; humans orchestrate.** AI can deliver whole features plus tests and docs. Humans own specs, architecture, and direction.
 
-Tools I use: [Cursor Agent](https://cursor.com/home).
+Tools I use: [Cursor Agent](https://cursor.com/home). I write the specs by hand.
 
-## Level 4 - AI as Autonomous Executor
+## Level 4 - AI as a Fully Autonomous Engineer
 
 **AI delivers artefacts; humans describe intent** - AI outputs everything, humans don't look at the code. Success depends on clear specs and strong context (e.g. “context engineering”).
 
-Tools I use: [Cursor Agent](https://cursor.com/home) with [BMAD](https://docs.bmad-method.org/) for spec-driven development.
+Tools I use: [Cursor Agent](https://cursor.com/home) with [BMAD](https://docs.bmad-method.org/) for assitance in spec-driven development.
 
-## Level 5 - Fully Autonomous Software Engineer
+## Level 5 - AI as a Development Team
 
 **AI writes, tests, reviews, merges; humans supervise outcomes.** AI owns the full SDLC; humans set goals and guardrails and inspect results.
 
