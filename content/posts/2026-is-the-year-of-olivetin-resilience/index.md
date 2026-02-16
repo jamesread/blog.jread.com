@@ -2,7 +2,8 @@
 title: "2026 Is the Year of OliveTin Resilience"
 date: 2026-01-11T09:36:33Z
 draft: false
-tags: []
+tags:
+  - code
 featured_image: ""
 description: ""
 ---
@@ -33,7 +34,7 @@ At the time of writing, version [3000.9.0-beta.1](https://github.com/OliveTin/Ol
 
 Codeberg is a non-profit, privacy-respecting Git hosting service based in Germany. It is run by a community of open source enthusiasts, and I think it aligns well with OliveTin's values. By adding Codeberg as a mirror, we can ensure that OliveTin's source code remains accessible even if GitHub were to change its policies or go down for an extended period of time.
 
-The Codeberg mirror will be hosted at https://codeberg.org/jamesread/olivetin - I plan to have it set up and running by the end of January 2026. Notice that I am deliberately not using an Organisation here - I think using the Organisation feature on GitHub was a mistake. 
+The Codeberg mirror will be hosted at https://codeberg.org/jamesread/olivetin - I plan to have it set up and running by the end of January 2026. Notice that I am deliberately not using an Organisation here - I think using the Organisation feature on GitHub was a mistake.
 
 ## Community chat: Increase Matrix usage, alongside Discord
 
@@ -41,11 +42,11 @@ OliveTin already has a Matrix room, but I want to make it more active and visibl
 
 * The OliveTin "rooms" have been created on the "technowax" Matrix server: https://matrix.to/#/#technowax:matrix.org
 
-These are likely to be extremely quiet rooms and I fully expect many people to continue to use Discord. However, having multiple options is a good thing :-) 
+These are likely to be extremely quiet rooms and I fully expect many people to continue to use Discord. However, having multiple options is a good thing :-)
 
 ## Documentation
 
-OliveTin's documentation is already pretty good, but a lot of pages have not been updated in a while. We're not talking about major rewrites, just a "lick of paint" - updated screenshots, more helpful instructions, etc. 
+OliveTin's documentation is already pretty good, but a lot of pages have not been updated in a while. We're not talking about major rewrites, just a "lick of paint" - updated screenshots, more helpful instructions, etc.
 
 ## Tools
 

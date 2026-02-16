@@ -2,13 +2,14 @@
 title: "My Multi-Cloud Usage in 2026"
 date: 2026-01-19T23:51:29Z
 draft: false
-tags: []
+tags:
+  - cloud
 featured_image_credit: Karolina Grabowska
 featured_image_url: https://www.pexels.com/photo/macro-photography-of-a-sunflower-4622893/
 description: ""
 ---
 
-A quick snapshot of the cloud providers I'm still using in 2026—what I use, why, and a few recommendations that may be relevant to single developers, self hosting enthusiasts, and similar. 
+A quick snapshot of the cloud providers I'm still using in 2026—what I use, why, and a few recommendations that may be relevant to single developers, self hosting enthusiasts, and similar.
 
 <!--more-->
 
@@ -27,11 +28,11 @@ I use spot VMs and keep subscriptions and resource groups in a realistic, recomm
 
 ## [Linode/Akamai](https://cloud.linode.com)
 
-Linode (now Akamai) continues to be a fond choice for straightforward cloud VMs and infrastructure projects that just need a VM quickly. It's well-known among developers for its no-nonsense approach: simple pricing, reliable performance, and a user interface that's refreshingly easy to navigate compared to the sometimes overwhelming dashboards of larger providers. 
+Linode (now Akamai) continues to be a fond choice for straightforward cloud VMs and infrastructure projects that just need a VM quickly. It's well-known among developers for its no-nonsense approach: simple pricing, reliable performance, and a user interface that's refreshingly easy to navigate compared to the sometimes overwhelming dashboards of larger providers.
 
-While Linode isn't always the absolute cheapest "per vCPU" in 2026, the difference is more than made up for by how smooth the experience remains—from spinning up a server to configuring backups and networking, everything just works. For side projects, quick prototypes, persistent personal servers, or anything where I want to know exactly what I'm getting for my money each month, it's been hard to beat.  
+While Linode isn't always the absolute cheapest "per vCPU" in 2026, the difference is more than made up for by how smooth the experience remains—from spinning up a server to configuring backups and networking, everything just works. For side projects, quick prototypes, persistent personal servers, or anything where I want to know exactly what I'm getting for my money each month, it's been hard to beat.
 
-* **Usage**: One of the 3 primary backend servers of my production web cluster is hosted here in Germany. Zero problems with stability and uptime so far. 
+* **Usage**: One of the 3 primary backend servers of my production web cluster is hosted here in Germany. Zero problems with stability and uptime so far.
 
 ![akamai.png](akamai.png)
 
@@ -41,13 +42,13 @@ Hetzner is my go-to for high-performance dedicated servers in Europe at very low
 
 What sets Hetzner apart beyond just price is transparency: predictable billing, clear specs, and a customer portal that stays out of your way. Data privacy is also reassuring, given their exclusively European datacenter locations. Over the years, I've used Hetzner for everything from hosting critical web services and CI/CD runners, to private backup solutions and test environments—I've yet to be let down by uptime or support responsiveness.
 
-* **Usage**: One of the 3 primary backend servers of my production web cluster, hosted in the nordics. 
+* **Usage**: One of the 3 primary backend servers of my production web cluster, hosted in the nordics.
 
 ![hetzner.png](hetzner.png)
 
 ## Cloudflare Workers
 
-This is one of my newest cloud environments, as I had to start putting my sites behind a CDN - and Cloudflare workers were just there and available to use. At the moment I still just have a single domain - literally just one of my testing domains that hosts a picture of a rock. Yep. 
+This is one of my newest cloud environments, as I had to start putting my sites behind a CDN - and Cloudflare workers were just there and available to use. At the moment I still just have a single domain - literally just one of my testing domains that hosts a picture of a rock. Yep.
 
 ![pyroxenite.png](pyroxenite.png)
 
@@ -59,7 +60,7 @@ Runpod is newer in my stack—I use it only for remote GPU. Spinning up a vLLM i
 
 ---
 
-## Summary 
+## Summary
 
 * **Azure** — enterprise alignment, static sites, dev/test. Best when you need breadth and enterprise patterns.
 * **Linode (Akamai)** — straightforward VMs, predictable pricing. Best when you want a server without fuss.

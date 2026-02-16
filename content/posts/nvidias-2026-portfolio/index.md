@@ -2,7 +2,9 @@
 title: "A simplified view of NVidia's portfolio in 2026"
 date: 2026-01-28T11:00:25Z
 draft: false
-tags: []
+tags:
+  - cloud
+  - ai
 featured_image_url: https://www.pexels.com/photo/nvidia-graphics-processing-unit-19356873/
 featured_image_credit: Stas Knop
 description: ""
