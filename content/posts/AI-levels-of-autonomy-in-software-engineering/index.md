@@ -37,7 +37,18 @@ Human Control <--------------------------> AI Control
                L0   L1   L2   L3   L4   L5
 ```
 
-Below are levels 0–5.
+Here's the quick reference of the model;
+
+| Level | Description | Human Role | AI Role |
+|------|------------|-----------|--------|
+| 0 | No AI | Do everything | None |
+| 1 | Assistant | Primary driver | Suggest |
+| 2 | Pair programmer | Decide | Generate |
+| 3 | Semi-autonomous | Orchestrate | Implement |
+| 4 | Autonomous executor | Specify intent | Deliver |
+| 5 | Fully autonomous | Supervise | Own SDLC |
+
+Below you can find the additional detail between the levels, and the tools I use at each level.
 
 ## Level 0 - No AI Assistance
 
