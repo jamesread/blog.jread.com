@@ -2,7 +2,9 @@
 title: "AI Levels of Autonomy in Software Engineering "
 date: 2026-02-15T23:45:48Z
 draft: false
-tags: []
+tags:
+  - code
+  - AI
 featured_image_credit: "Tamara Elnova"
 featured_image_url: https://www.pexels.com/photo/close-up-of-wet-grass-12226331/
 description: ""
