@@ -291,10 +291,37 @@ code {
 	color: #f8f8f2;
 }
 
+table {
+  border-collapse: collapse;
+  margin: 2em auto;
+}
+
+table, th, td {
+  border: 1px solid #999;
+}
+
+th {
+  background-color: #eee;
+  padding: .5em;
+}
+
+th, td {
+  padding: .5em;
+  text-align: left;
+}
+
 @media (prefers-color-scheme: dark) {
 	body {
 		background-color: #333;
 		color: #fff;
+	}
+
+	table, th, td {
+		border: 1px solid #666;
+	}
+
+	th {
+		background-color: #555;
 	}
 
 	a {
@@ -325,7 +352,7 @@ code {
 		color: #10203a;
 		background-color: #83d6ff;
 	}
-	
+
 	ul.tags li a:hover, .tag:hover {
 		color: white;
 	}
