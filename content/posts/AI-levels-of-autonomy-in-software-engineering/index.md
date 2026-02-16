@@ -30,7 +30,7 @@ Production systems, customer-facing applications, heavily used apps, and regulat
 
 A simple sliding scale captures the levels:
 
-```
+```ini
 Human Control <--------------------------> AI Control
                L0   L1   L2   L3   L4   L5
 ```
