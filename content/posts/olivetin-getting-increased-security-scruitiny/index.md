@@ -2,7 +2,8 @@
 title: "OliveTin is getting more security scruitiny; and it's a good thing"
 date: 2026-03-02T09:13:55Z
 draft: false
-tags: []
+tags:
+  - code
 featured_image_credit: The image is obviously AI generated, because many of these security issues are being reported with AI tools!
 ---
 
