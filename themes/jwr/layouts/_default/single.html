@@ -19,7 +19,9 @@
 		{{- .Content -}}
 	</div>
 
-	<aside> 
+	{{- partial "ai-disclosure.html" . -}}
+
+	<aside>
 		<h2>Tags</h2>
 		{{- partial "tags.html" . -}}
 		<br />

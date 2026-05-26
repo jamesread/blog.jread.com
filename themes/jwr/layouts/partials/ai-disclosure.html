@@ -1,0 +1,11 @@
+{{ $page := . }}
+{{ $level := $page.Params.ai_assisted | default "none" }}
+{{ $settings := index $page.Site.Params.ai_assisted $level }}
+{{ if not $settings }}{{ $settings = index $page.Site.Params.ai_assisted "none" }}{{ end }}
+{{ $heading := $page.Site.Params.ai_assisted.heading | default "AI disclosure" }}
+{{ $modelLabel := $page.Site.Params.ai_assisted.model_label | default "Model" }}
+{{ $model := $page.Params.ai_assisted_model }}
+<aside class="ai-disclosure">
+	<h2>{{ $heading }}</h2>
+	<p>{{ $settings.disclosure }}<strong>{{ $settings.disclosure_emphasis }}</strong>{{ $settings.disclosure_suffix }}{{ with $model }} {{ $modelLabel }}: <strong>{{ . }}</strong>.{{ end }}</p>
+</aside>

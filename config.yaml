@@ -31,6 +31,25 @@ params:
     twitter: "@jamesreadtweets"
     bluesky: "@jamesread.bsky.social"
     mastodon: "jamesread"
+  # Reusable frontmatter keys for AI-assisted articles (see partials/ai-disclosure.html):
+  #   ai_assisted: "review-only" | "mostly-generative-writing"   # omit or empty = no AI used
+  #   ai_assisted_model: "Composer 2.5 Fast"                     # optional model name
+  # Site params per level: disclosure, disclosure_emphasis, disclosure_suffix
+  ai_assisted:
+    heading: "AI disclosure"
+    model_label: "Model"
+    none:
+      disclosure: "This article was written by the author, "
+      disclosure_emphasis: "*without* using AI for creation or review."
+      disclosure_suffix: ""
+    review-only:
+      disclosure: "This article was written by the author and "
+      disclosure_emphasis: "reviewed with AI assistance."
+      disclosure_suffix: ""
+    mostly-generative-writing:
+      disclosure: "This article was "
+      disclosure_emphasis: "most authored with AI, it was refined over several different prompts"
+      disclosure_suffix: ", and finally was human-reviewed by James."
 
 menu:
   main:

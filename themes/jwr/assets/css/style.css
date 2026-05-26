@@ -163,6 +163,19 @@ aside.featuredImageCredit {
   margin-top: -1em;
 }
 
+aside.ai-disclosure {
+  margin-bottom: 1em;
+}
+
+aside.ai-disclosure h2 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+aside.ai-disclosure p {
+  margin: 0;
+}
+
 pre {
   background-color: #272822;
   color: #f8f8f2;
@@ -189,29 +202,54 @@ ul.tags {
   list-style: none;
   margin: 0;
   padding: 0;
-  font-size: small;
 }
 
 ul.tags li {
   display: inline-block;
 }
 
-ul.tags li a, .tag {
-  font-family: sans-serif;
-  padding: .5em;
-  margin-right: .5em;
-  background-color: #36f;
-  color: white;
+.tag {
+  font-family: sans;
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  padding: 0.28em 0.65em;
+  margin-right: 0.5em;
+  line-height: 1.35;
+  font-weight: 500;
+  font-size: 0.9em;
+  letter-spacing: 0.02em;
   text-decoration: none;
-  border-radius: .8em;
+  border-radius: 6px;
+  border: 1px solid #c8d0d8;
+  background: #f8f9fb;
+  color: #1d4ed8;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.06);
 }
 
-ul.tags li a:hover {
-  background-color: #00458F;
+a.tag {
+  font-weight: 700;
 }
 
-ul.tags a:active, ul.tags a:focus, strong.tag {
-  background-color: black;
+a.tag:hover {
+  background: #eff6ff;
+  border-color: #93c5fd;
+  text-decoration: none;
+}
+
+a.tag:active,
+a.tag:focus {
+  background-color: #dbeafe;
+  color: #1e3a8a;
+  border-color: #60a5fa;
+  text-decoration: none;
+}
+
+strong.tag {
+  font-weight: 700;
+  background: #eef2ff;
+  color: #3730a3;
+  border-color: #c7d2fe;
 }
 
 ul.terms {
@@ -230,7 +268,7 @@ aside.currentPage {
 }
 
 aside.currentPage .tag {
-  font-size: small;
+  font-size: 0.9em;
 }
 
 ul.pagination {
@@ -256,10 +294,7 @@ ul.pagination li a {
 }
 
 ul.pagination li span.tag {
-  padding: 0.5em 1em;
   cursor: default;
-  color: white;
-  font-weight: bold;
 }
 
 figure img {
@@ -286,29 +321,61 @@ img.profile {
 }
 
 code {
-	font-size: 1.0em;
-	background-color: #272822;
-	color: #f8f8f2;
+	font-size: 0.95em;
+	background-color: #eef1f4;
+	color: #2a2a2a;
+	padding: 0.15em 0.4em;
+	border-radius: 0.25em;
 }
 
-table {
+pre code {
+	background-color: transparent;
+	color: inherit;
+	padding: 0;
+	border-radius: 0;
+}
+
+article table {
+  width: 100%;
   border-collapse: collapse;
-  margin: 2em auto;
-  box-shadow: 0 0 5px #999;
+  margin: 2em 0;
+  border: 1px solid #dee3e7;
+  border-radius: .5em;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.08);
+  font-size: 0.95em;
 }
 
-table, th, td {
-  border: 1px solid #999;
-}
-
-th {
-  background-color: #eee;
-  padding: .5em;
-}
-
-th, td {
-  padding: .5em;
+article th,
+article td {
+  padding: 0.65em 0.85em;
   text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid #dee3e7;
+}
+
+article tr:last-child th,
+article tr:last-child td {
+  border-bottom: none;
+}
+
+article th {
+  background-color: #eef1f4;
+  color: #2a2a2a;
+  font-weight: 600;
+}
+
+article tbody tr:nth-child(even) {
+  background-color: #fafbfc;
+}
+
+article tbody tr:hover {
+  background-color: #f3f6f9;
+}
+
+article td:first-child,
+article th:first-child {
+  font-weight: 600;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -317,16 +384,27 @@ th, td {
 		color: #fff;
 	}
 
-	table {
+	article table {
+		border-color: #555;
 		box-shadow: 0 0 5px #222;
 	}
 
-	table, th, td {
-		border: 1px solid #666;
+	article th,
+	article td {
+		border-bottom-color: #555;
 	}
 
-	th {
-		background-color: #555;
+	article th {
+		background-color: #444;
+		color: #eee;
+	}
+
+	article tbody tr:nth-child(even) {
+		background-color: #3a3a3a;
+	}
+
+	article tbody tr:hover {
+		background-color: #454545;
 	}
 
 	a {
@@ -349,22 +427,45 @@ th, td {
 		color: #fff;
 	}
 
+	.tag {
+		background: #3a3a3a;
+		color: #93c5fd;
+		border-color: #555;
+		box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+	}
+
+	a.tag:hover {
+		background: #454545;
+		border-color: #60a5fa;
+		color: #bfdbfe;
+	}
+
+	a.tag:active,
+	a.tag:focus {
+		background-color: #4a5568;
+		color: #dbeafe;
+		border-color: #93c5fd;
+	}
+
 	strong.tag {
-		background-color: #83d6ff;
-	}
-
-	ul.tags li a, .tag {
-		color: #10203a;
-		background-color: #83d6ff;
-	}
-
-	ul.tags li a:hover, .tag:hover {
-		color: white;
+		background: #3730a3;
+		color: #c7d2fe;
+		border-color: #6366f1;
 	}
 
 	code {
-		background-color: #272822;
-		color: #f8f8f2;
+		background-color: #444;
+		color: #eee;
+	}
+
+	pre code {
+		background-color: transparent;
+		color: inherit;
+	}
+
+	aside.ai-disclosure {
+		border-color: #555;
+		background-color: #3a3a3a;
 	}
 
 	ul.pagination li span {
