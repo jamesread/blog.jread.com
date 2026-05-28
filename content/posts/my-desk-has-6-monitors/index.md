@@ -4,6 +4,8 @@ date: 2021-03-12
 tags:
   - my-tools
   - workstation
+  - self-hosting
+  - homelab
 ---
 
 Taken in approx Mar 2021

@@ -4,6 +4,8 @@ date: 2021-01-19
 tags:
   - my-tools
   - git
+  - self-hosting
+  - homelab
 featured_image: ![Photo by [**Markus Spiske](https://www.pexels.com/@markusspiske?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)** from [**Pexels](https://www.pexels.com/photo/space-apple-broken-technology-2644598/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)**](https://cdn-images-1.medium.com/max/3760/1*Nrhal9MO7DcLlRJ9RIXHrQ.jpeg)*Photo by [**Markus Spiske](https://www.pexels.com/@markusspiske?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)** from [**Pexels](https://www.pexels.com/photo/space-apple-broken-technology-2644598/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)***
 ---
 

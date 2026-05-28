@@ -5,7 +5,8 @@ tags:
   - today-i-switched
   - containers
   - linux
-  - homeops
+  - self-hosting
+  - homelab
 featured_image_credit: "bernswaelz"
 featured_image_url: "https://pixabay.com/photos/container-bridge-container-1367604/"
 ---

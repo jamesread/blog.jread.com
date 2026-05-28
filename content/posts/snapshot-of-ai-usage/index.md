@@ -4,7 +4,7 @@ date: 2025-11-07T09:52:43Z
 draft: false
 tags:
   - AI
-  - Self-Hosting
+  - self-hosting
 featured_image_url: "https://pixabay.com/photos/cyber-brain-computer-brain-7633488/"
 featured_image_credit: "DeltaWorks"
 description: ""
@@ -32,7 +32,7 @@ It will be interesting to see how this changes over time!
 
 ### Cursor AI - AI assisted IDE (https://cursor.com/)
 
-I have to say that I was very surprised to like this, being such an avid Vim user. 
+I have to say that I was very surprised to like this, being such an avid Vim user.
 
 ![Cursor AI Screenshot](cursor.png)
 
@@ -77,4 +77,3 @@ I was introduced to Coderabbit AI via Postiz, and I have to say the quality of t
 - Open Router - https://openrouter.ai/ - to provide compatibility across multiple models, especially for n8n
 - Open WebUI - https://github.com/open-webui/open-webui
 - RunPod - https://www.runpod.io/ - to try self-hosted models
-

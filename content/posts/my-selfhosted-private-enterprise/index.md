@@ -4,19 +4,20 @@ date: 2025-11-26
 tags:
   - architecture
   - self-hosting
+  - homelab
   - cloud
 featured_image_credit: Sebastian Ganso
 featured_image_url: "https://pixabay.com/photos/ice-block-winter-frozen-lake-7665945/"
 description: ""
 ---
 
-One of my favourite topics to talk about with anyone is self hosting. Some people refer to home automation, some people call it homelabs - I have both, and many other systems, in a fairly vast environment where everything is self hosted. 
+One of my favourite topics to talk about with anyone is self hosting. Some people refer to home automation, some people call it homelabs - I have both, and many other systems, in a fairly vast environment where everything is self hosted.
 
-I truly believe that self hosting is the best way to really understand lots of aspects of technology, privacy, and how to efficiently build and secure systems. 
+I truly believe that self hosting is the best way to really understand lots of aspects of technology, privacy, and how to efficiently build and secure systems.
 
 ## "So, what do you self host?"
 
-I've often wondered even howto refer to all this "stuff" I have - which is more than a collection of servers (at home, in cloud, in all different architectures). It's also more than a collection of services, which ranges from Home Assistant, to Apache clusters, Kubernetes clusters, and everything in between. Do I just give people a list my containers, for example? 
+I've often wondered even howto refer to all this "stuff" I have - which is more than a collection of servers (at home, in cloud, in all different architectures). It's also more than a collection of services, which ranges from Home Assistant, to Apache clusters, Kubernetes clusters, and everything in between. Do I just give people a list my containers, for example?
 
 Well, let's take a quick peek into just *one of the servers*;
 
@@ -142,13 +143,13 @@ h3 {
     </div>
 </div>
 
-When you start thinking of what you're hosting as not just a list of containers and VMs, and start thinking about WHY you're hosting them, it forces you to think about lists of systems (which compose multiple VMs and containers). 
+When you start thinking of what you're hosting as not just a list of containers and VMs, and start thinking about WHY you're hosting them, it forces you to think about lists of systems (which compose multiple VMs and containers).
 
 ## Adapting the Enterprise Architecture layers to Personal Self-Hosting
 This highest level diagram shows the topmost **6 primary systems** that compose my self hosted environment, but a true enterprise architecture has many layers of detail below this - which I will document in future blog posts. If I take the principle of designing an enterprise architecture, and adapt those principles to a **personal self-hosted environment**, it would look something like this;
 
 - **Personal Vision and Strategy** - what **I** want to achieve (eg: learn, build, create, share, automate etc)
-- **Personal Capabilities** - what abilities do I want my digital life to have? (eg, control over memories, knowledge, entertainment etc) 
+- **Personal Capabilities** - what abilities do I want my digital life to have? (eg, control over memories, knowledge, entertainment etc)
 - **Personal value streams** - how do I deliver value to myself? (eg: learn something -> automate it -> free up time, or ideas -> prototypes -> projects -> share)
 - **Personal Processes & workflows** - How work actually happens in my life (eg: media ingestion -> sharing with my family, turning physical letters into useful digital knowledge etc)
 - **Personal Information & Data Architecture** - How data is structured, stored, and accessed (eg: git-annex for everything, super heavy preference for flat files, paranoia about backups)
@@ -171,7 +172,7 @@ When designing teratan.lan, I applied a few key design principles to ensure that
 
 ## What's next & Summary
 
-Over time, I would like to document as many of these systems as possible - diving into the services I run, the architecture decisions I've made, and the lessons I've learned along the way. I've deliberately made the diagram above simple, and in HTML, so that I can link to future blog posts about each system and subsystem. 
+Over time, I would like to document as many of these systems as possible - diving into the services I run, the architecture decisions I've made, and the lessons I've learned along the way. I've deliberately made the diagram above simple, and in HTML, so that I can link to future blog posts about each system and subsystem.
 
 I also have **teratan.net** - which is my public facing enterprise architecture. It's used for hosting public websites, blogs (like this one!), and other projects and services that I want to share with the world. It has some slightly different design principles to teratan.lan - such as the need for running extremely low cost, and being very highly available. I'll document that in another blog post sometime.
 

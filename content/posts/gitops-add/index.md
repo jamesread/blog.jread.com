@@ -7,6 +7,8 @@ tags:
   - github
   - git
   - gitops
+  - self-hosting
+  - homelab
   - code
 ---
 
@@ -30,7 +32,7 @@ I’ve been wanting to embrace GitOps for quite some time, but it’s always tri
 
 My intention is to store all my configuration files for dnsmasq, httpd, and so on, all in Git. Configuration is sensitive, including usernames and passwords, and so obviously a GitHub public repository isn’t the best idea. If you’re willing to pay for a private repository, go for it. I opted to create a repository on a dedicated server I have on the public internet, so that all other servers can get it.
 
-    cd /opt/ 
+    cd /opt/
     git init --bare ServerConfiguration.git
 
 ## **DNS-based directory names — easy to browse**
@@ -57,7 +59,7 @@ Why not symlinks, you say? Well, I started off using symlinks, but I found that 
 
 I’ve got a bunch of servers that all share the same configuration files. A common directory with relative symlinks works well here.
 
-    cd /opt/ServerConfiguration 
+    cd /opt/ServerConfiguration
     mkdir -p example.com/common
     cp /etc/httpd/conf/httpd.conf common/httpd.conf
     ln -s "../common/httpd.conf" server1/httpd.conf

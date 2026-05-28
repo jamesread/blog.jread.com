@@ -8,6 +8,8 @@ tags:
   - MCP
   - n8n
   - automation
+  - self-hosting
+  - homelab
 featured_image_url: ""
 featured_image_credit: ""
 description: "Use n8n as a bridge so that LLMs running in the cloud can discover and call tools on your local MCP servers—without moving your data or your MCP stack to the cloud."

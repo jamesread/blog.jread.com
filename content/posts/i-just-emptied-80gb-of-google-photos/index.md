@@ -5,6 +5,8 @@ draft: false
 featured_image_caption: No Google, I don't want to add photos.
 tags:
   - cloud
+  - self-hosting
+  - homelab
 ---
 
 Google Photos, the free, easy to use, on-for-many-android-users service has been the single Photo backup strategy for many of those who have used it, since it was released in 2015. I, for one, was amazed to discover that I have uploaded photos dating as far back as 2005, totalling over 80Gb. Initially, Google photos seemed like that ultimate, hassle-free, cloud backup service that would never be replaced.... However, as time went on, I found myself growing increasingly concern about cloud services that "own" my personal data. and I've just now managed to clear my data out of Google Photos.
@@ -20,7 +22,7 @@ Overall, here were the reasons I decided to really kill off Google photos;
 * **Accessibility**: The storage is difficult to access using tools I use all the time, although I was not aware of rcopy until recently!
 * **Lifecycle**: While it is unlikely that Google would get rid of Google photos anytime soon, they're far more likely to kill of features, or change things in a way that does not suit me. I like services that I can control.
 * **Privacy**: In the end, Google is Google - they have a pretty awful
-* **Cheeky features**: Google photos does not serve you original images in the web UI, and various tools. Even if you download the photos, it will strip metadata, including Geolocation. 
+* **Cheeky features**: Google photos does not serve you original images in the web UI, and various tools. Even if you download the photos, it will strip metadata, including Geolocation.
 
 # Google make it tricky to delete things in bulk
 
