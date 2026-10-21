@@ -1,5 +1,5 @@
 baseURL: 'https://blog.jread.com/'
-languageCode: 'en-gb'
+locale: 'en-gb'
 author: "James Read"
 copyright: "James Read"
 title: "James Read's Code, Containers & Cloud blog"

@@ -1,9 +1,16 @@
+/* Shared hover accent (see "Hover" at the end of this file) */
+:root {
+  --hover-bg: #eff6ff;
+  --hover-border: #93c5fd;
+  --hover-text: #1d4ed8;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
   font-size: 1.0em;
-  line-height: calc(1ex / 0.32);
+  line-height: 1.65;
   background-color: #fff;
 }
 
@@ -66,7 +73,18 @@ a:hover {
   text-decoration: underline;
 }
 
-a:active, a:focus {
+/* Keyboard focus: one style for every focusable element */
+:focus-visible {
+  outline: 3px solid black;
+  outline-offset: 2px;
+}
+
+/* Zero specificity, so elements that set their own radius keep it */
+:where(:focus-visible) {
+  border-radius: 4px;
+}
+
+a:active {
   color: white;
   background-color: black;
   text-decoration: none;
@@ -104,7 +122,6 @@ h2 {
   margin: 0;
   margin-top: 1.5em;
 }
-
 
 h3 {
   margin-top: 1.5em;
@@ -240,14 +257,7 @@ a.tag {
   font-weight: 700;
 }
 
-a.tag:hover {
-  background: #eff6ff;
-  border-color: #93c5fd;
-  text-decoration: none;
-}
-
-a.tag:active,
-a.tag:focus {
+a.tag:active {
   background-color: #dbeafe;
   color: #1e3a8a;
   border-color: #60a5fa;
@@ -393,6 +403,20 @@ article th:first-child {
 		color: #fff;
 	}
 
+	:root {
+		--hover-bg: #454545;
+		--hover-border: #60a5fa;
+		--hover-text: #bfdbfe;
+	}
+
+	:focus-visible {
+		outline-color: white;
+	}
+
+	nav ul li .nav-indicator {
+		color: white;
+	}
+
 	article table {
 		border-color: #555;
 		box-shadow: 0 0 5px #222;
@@ -443,14 +467,7 @@ article th:first-child {
 		box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 	}
 
-	a.tag:hover {
-		background: #454545;
-		border-color: #60a5fa;
-		color: #bfdbfe;
-	}
-
-	a.tag:active,
-	a.tag:focus {
+	a.tag:active {
 		background-color: #4a5568;
 		color: #dbeafe;
 		border-color: #93c5fd;
@@ -481,8 +498,38 @@ article th:first-child {
 		color: #999;
 	}
 
-
 	pre {
 	  box-shadow: 0 0 5px #222;
 	}
+}
+
+/* Hover: text links underline (a:hover above); boxed controls and linked
+   images use the shared accent. Kept last so it wins over state styles. */
+a.tag:hover,
+.annotation a:hover,
+.screenshot-lightbox__close:hover,
+.screenshot-lightbox__nav:hover {
+  background: var(--hover-bg);
+  border-color: var(--hover-border);
+  color: var(--hover-text);
+  text-decoration: none;
+}
+
+.annotation:has(a:hover) {
+  border-color: var(--hover-border);
+}
+
+a:hover > img,
+.project-screenshot-previews__link:hover {
+  box-shadow: 0 0 0 3px var(--hover-border);
+}
+
+a.tag,
+.annotation,
+.annotation a,
+a > img,
+.project-screenshot-previews__link,
+.screenshot-lightbox__close,
+.screenshot-lightbox__nav {
+  transition: background-color 0.15s, border-color 0.15s, color 0.15s, box-shadow 0.15s;
 }
