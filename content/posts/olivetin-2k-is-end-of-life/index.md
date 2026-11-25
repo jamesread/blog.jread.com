@@ -1,7 +1,7 @@
 ---
 title: "OliveTin 2k is end of life — I'm breaking a promise, and I'm sorry"
 date: 2026-11-25T12:00:00Z
-draft: true
+draft: false
 tags:
   - code
   - open-source
